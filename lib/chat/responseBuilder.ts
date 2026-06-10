@@ -43,7 +43,8 @@ const helpText = `I can help answer questions such as:
 • Who can approve Azure subscriptions?
 • Who knows Kotlin Multiplatform?
 • Which team owns customer onboarding?
-• How do I request production access?`;
+• How do I request production access?
+• What is PAP?`;
 
 const defaultSuggestions = [
   "Who owns the Travel Claims API?",
@@ -87,7 +88,7 @@ function buildKnowledgeResponse(query: string, intent: ChatIntent, item: Knowled
     matched: true,
     intent,
     answer: {
-      answer: `${ownerVerb(item)} ${primaryContact.name} is the primary contact, with ${backupContact.name} as backup.`,
+      answer: answerText,
       confidence: item.confidence,
       primaryContact,
       backupContact,

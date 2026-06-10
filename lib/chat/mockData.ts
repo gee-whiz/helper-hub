@@ -36,6 +36,8 @@ export const exampleQuestions = [
   "Who handles OAuth scope changes?",
   "Who approves Snowflake access requests?",
   "How do I request production data access?",
+  "What is PAP?",
+  "How does the Production Approval Process work?",
   "Who manages Snowflake roles?",
   "Who maintains data contracts?",
   "Who knows dbt?",
