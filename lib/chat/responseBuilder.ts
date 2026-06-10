@@ -244,7 +244,7 @@ export function generateResponse(message: string, conversationContext?: Conversa
     return simpleResponse(
       query,
       intent,
-      "Hello! I'm OrgPilot. I can help you find system owners, teams, experts, projects, and internal processes. What are you looking for today?",
+      "Hello! I'm Helper Hub. I can help you find system owners, teams, experts, projects, and internal processes. What are you looking for today?",
       ["Who owns the Travel Claims API?", "Who knows Kotlin Multiplatform?", "Which team manages Azure?"],
     );
   }

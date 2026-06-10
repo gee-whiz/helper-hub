@@ -16,7 +16,7 @@ const starterMessages: Message[] = [
   {
     id: "welcome",
     role: "assistant",
-    text: "Hello! I'm OrgPilot. Ask me to find system owners, teams, experts, projects, or internal processes.",
+    text: "Hello! I'm If Helper Hub. Ask me to find system owners, teams, experts, projects, or internal processes.",
   },
 ];
 
@@ -361,9 +361,6 @@ export default function Home() {
                 Ask who owns what.
               </p>
             </div>
-            <span className="rounded-full bg-[#E8F1FF] px-3 py-1 text-xs font-bold uppercase tracking-wide text-[#0054F0] dark:bg-[#06265E] dark:text-[#BFD6FF]">
-              OrgPilot
-            </span>
           </div>
 
           <div className="mt-6">
@@ -415,7 +412,7 @@ export default function Home() {
                     Ask a plain-language ownership question.
                   </h2>
                   <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600 dark:text-slate-300">
-                    OrgPilot turns messy internal clues into an answer card with likely owner, backup, confidence, and source evidence behind the recommendation.
+                   Helper Hub turns messy internal clues into an answer card with likely owner, backup, confidence, and source evidence behind the recommendation.
                   </p>
                 </div>
               ) : null}
