@@ -217,24 +217,6 @@ function AnswerCard({
         </div>
       ) : null}
 
-      {answer.possibleMatches?.length ? (
-        <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 dark:border-amber-900 dark:bg-amber-950/40">
-          <p className="text-sm font-semibold text-amber-950 dark:text-amber-100">
-            I could not find an exact owner. Possible matches:
-          </p>
-          <div className="mt-3 flex flex-wrap gap-2">
-            {answer.possibleMatches.map((match) => (
-              <span
-                key={match.id}
-                className="rounded-full bg-white px-3 py-1 text-xs font-medium text-amber-900 shadow-sm dark:bg-slate-950 dark:text-amber-100"
-              >
-                {match.label}
-              </span>
-            ))}
-          </div>
-        </div>
-      ) : null}
-
       <div className="flex flex-wrap gap-2">
         {answer.actions?.map((action) => (
           <a
