@@ -1,0 +1,4892 @@
+[
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "film",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/film.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "add-user",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/add-user.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "user",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/user.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "unlock",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/unlock.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "speach-bubble",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/speach-bubble.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "shopping-cart",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/shopping-cart.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "shopping-bag",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/shopping-bag.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "shop",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/shop.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "share-network",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/share-network.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "share-ios",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/share-ios.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "settings",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/settings.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "send-message",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/send-message.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "search",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/search.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "remove-circle",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/remove-circle.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "reload",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/reload.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "preferences",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/preferences.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "plus",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/plus.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "play-filled",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/play-filled.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "play",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/play.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "pin",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/pin.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "phone-call-end",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/phone-call-end.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "phone",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/phone.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "pencil",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/pencil.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "pause-filled",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/pause-filled.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "pause",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/pause.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "outgoing-call",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/outgoing-call.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "open-in-new",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/open-in-new.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "multiple",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/multiple.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "minus",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/minus.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "microsoft",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/microsoft.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "microphone-off",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/microphone-off.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "microphone",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/microphone.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "menu",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/menu.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "megaphone",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/megaphone.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "math",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/math.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "map-pin",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/map-pin.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "logout",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/logout.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "login",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/login.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "lock",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/lock.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "location",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/location.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "link",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/link.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "like",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/like.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "leave",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/leave.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "info",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/info.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "incomming-call",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/incomming-call.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "image",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/image.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "img",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/img.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "house",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/house.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "help",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/help.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "handshake",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/handshake.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "globe",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/globe.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "floppy-disk",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/floppy-disk.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "filter",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/filter.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "file",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/file.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "email",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/email.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "edit",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/edit.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "dislike",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/dislike.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "direct-edit",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/direct-edit.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "curved-arrow-left",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/curved-arrow-left.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "back-arrow",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/back-arrow.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "corner-left-round",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/corner-left-round.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "copy",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/copy.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "cockade",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/cockade.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "cross",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/cross.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "remove",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/remove.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "clock",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/clock.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "cheque",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/cheque.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "check-list",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/check-list.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "check",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/check.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "chat",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/chat.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "camera",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/camera.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "calculator",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/calculator.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "books",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/books.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "bank-card",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/bank-card.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "attach",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/attach.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "asterisk",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/asterisk.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "arrows-right",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/arrows-right.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "arrows-left",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/arrows-left.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "arrow-up",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/arrow-up.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "arrow-top-right",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/arrow-top-right.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "arrow-sm-up",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/arrow-sm-up.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "arrow-sm-right",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/arrow-sm-right.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "arrow-sm-left",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/arrow-sm-left.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "arrow-sm-down",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/arrow-sm-down.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "arrow-right",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/arrow-right.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "arrow-link",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/arrow-link.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "arrow-link-back",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/arrow-link-back.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "arrow-link-down",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/arrow-link-down.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "arrow-left",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/arrow-left.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "arrow-down",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/arrow-down.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "video-off",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/video-off.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "delete",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/delete.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "download",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/download.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "upload",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/upload.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "preview",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/preview.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "preview-off",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/preview-off.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "calendar",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/calendar.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "recipe",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/recipe.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "share",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/share.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "hourglass",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/hourglass.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "printer",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/printer.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "bullet-list",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/bullet-list.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "curved-arrow-right",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/curved-arrow-right.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "fullscreen",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/fullscreen.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "subtitles",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/subtitles.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "ban",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/ban.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "enlarge",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/enlarge.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "collapse",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/collapse.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "target",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/target.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "checkmark-dot",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/checkmark-dot.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "qr-code",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/qr-code.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "warning",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/warning.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "placeholder",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/placeholder.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "sun",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/sun.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "dark-mode",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/dark-mode.svg"
+    },
+    {
+        "group": "ui",
+        "size": "16",
+        "name": "moon",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/16/moon.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "film",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/film.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "file-download",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/file-download.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "more-vertical-filled",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/more-vertical-filled.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "more-vertical",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/more-vertical.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "more-horizontal-filled",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/more-horizontal-filled.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "more-horizontal",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/more-horizontal.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "user",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/user.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "upload",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/upload.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "unlock",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/unlock.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "speach-bubble",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/speach-bubble.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "sound-on",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/sound-on.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "sound-off",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/sound-off.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "shopping-cart",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/shopping-cart.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "shopping-bag",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/shopping-bag.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "shop",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/shop.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "share-network",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/share-network.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "share-ios",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/share-ios.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "settings",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/settings.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "send-message",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/send-message.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "search",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/search.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "remove-circle",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/remove-circle.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "reload",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/reload.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "preview-off",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/preview-off.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "preview",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/preview.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "preferences",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/preferences.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "plus",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/plus.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "play-filled",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/play-filled.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "play",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/play.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "pin",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/pin.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "phone-call-end",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/phone-call-end.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "phone",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/phone.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "pencil",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/pencil.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "pause-filled",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/pause-filled.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "pause",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/pause.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "outgoing-call",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/outgoing-call.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "open-in-new",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/open-in-new.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "multiple",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/multiple.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "minus",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/minus.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "microsoft",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/microsoft.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "microphone-off",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/microphone-off.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "microphone",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/microphone.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "menu",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/menu.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "megaphone",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/megaphone.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "math",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/math.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "map-pin",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/map-pin.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "logout",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/logout.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "login",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/login.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "lock",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/lock.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "location",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/location.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "link",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/link.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "like",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/like.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "leave",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/leave.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "info",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/info.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "incomming-call",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/incomming-call.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "img",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/img.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "image",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/image.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "house",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/house.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "help",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/help.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "handshake",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/handshake.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "globe",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/globe.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "floppy-disk",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/floppy-disk.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "filter",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/filter.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "file",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/file.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "email",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/email.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "edit",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/edit.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "download",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/download.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "dislike",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/dislike.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "direct-edit",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/direct-edit.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "delete",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/delete.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "curved-arrow-left",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/curved-arrow-left.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "back-arrow",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/back-arrow.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "corner-left-round",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/corner-left-round.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "copy",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/copy.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "computer-upload",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/computer-upload.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "cockade",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/cockade.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "cross",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/cross.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "clock",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/clock.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "cheque",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/cheque.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "check",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/check.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "chat",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/chat.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "camera",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/camera.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "calendar",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/calendar.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "calculator",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/calculator.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "books",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/books.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "bank-card",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/bank-card.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "attach",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/attach.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "arrows-right",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/arrows-right.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "arrows-left",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/arrows-left.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "arrow-up",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/arrow-up.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "arrow-top-right",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/arrow-top-right.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "arrow-sm-up",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/arrow-sm-up.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "arrow-sm-right",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/arrow-sm-right.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "arrow-sm-left",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/arrow-sm-left.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "arrow-sm-down",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/arrow-sm-down.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "arrow-right",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/arrow-right.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "arrow-left",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/arrow-left.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "arrow-down",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/arrow-down.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "add-user",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/add-user.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "arrow-link",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/arrow-link.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "arrow-link-back",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/arrow-link-back.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "arrow-link-down",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/arrow-link-down.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "recipe",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/recipe.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "video-off",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/video-off.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "share",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/share.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "hourglass",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/hourglass.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "printer",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/printer.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "bullet-list",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/bullet-list.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "replace",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/replace.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "secure-message",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/secure-message.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "curved-arrow-right",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/curved-arrow-right.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "fullscreen",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/fullscreen.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "subtitles",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/subtitles.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "ban",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/ban.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "enlarge",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/enlarge.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "collapse",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/collapse.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "target",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/target.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "checkmark-dot",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/checkmark-dot.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "qr-code",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/qr-code.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "warning",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/warning.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "placeholder",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/placeholder.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "sun",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/sun.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "dark-mode",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/dark-mode.svg"
+    },
+    {
+        "group": "ui",
+        "size": "24",
+        "name": "moon",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/24/moon.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "user",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/user.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "upload",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/upload.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "unlock",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/unlock.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "speach-bubble",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/speach-bubble.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "sound-on",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/sound-on.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "sound-off",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/sound-off.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "shopping-cart",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/shopping-cart.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "shopping-bag",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/shopping-bag.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "shop",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/shop.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "share-network",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/share-network.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "share-ios",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/share-ios.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "settings",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/settings.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "send-message",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/send-message.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "search",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/search.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "reload",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/reload.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "preview-off",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/preview-off.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "preview",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/preview.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "preferences",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/preferences.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "plus",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/plus.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "play-filled",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/play-filled.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "play",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/play.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "pin",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/pin.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "phone-call-end",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/phone-call-end.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "phone",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/phone.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "pencil",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/pencil.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "pause-filled",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/pause-filled.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "pause",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/pause.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "outgoing-call",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/outgoing-call.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "open-in-new",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/open-in-new.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "multiple",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/multiple.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "more-vertical-filled",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/more-vertical-filled.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "more-vertical",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/more-vertical.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "more-horizontal-filled",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/more-horizontal-filled.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "more-horizontal",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/more-horizontal.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "minus",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/minus.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "microsoft",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/microsoft.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "microphone-off",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/microphone-off.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "microphone",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/microphone.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "menu",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/menu.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "megaphone",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/megaphone.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "math",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/math.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "map-pin",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/map-pin.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "logout",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/logout.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "login",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/login.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "lock",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/lock.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "location",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/location.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "link",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/link.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "like",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/like.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "leave",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/leave.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "info",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/info.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "incomming-call",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/incomming-call.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "img",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/img.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "image",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/image.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "house",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/house.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "help",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/help.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "handshake",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/handshake.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "globe",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/globe.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "floppy-disk",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/floppy-disk.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "filter",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/filter.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "film",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/film.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "file-download",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/file-download.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "file",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/file.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "email",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/email.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "edit",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/edit.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "download",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/download.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "dislike",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/dislike.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "direct-edit",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/direct-edit.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "delete",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/delete.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "corner-left-round",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/corner-left-round.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "copy",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/copy.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "computer-upload",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/computer-upload.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "cockade",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/cockade.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "cross",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/cross.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "clock",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/clock.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "cheque",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/cheque.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "check",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/check.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "chat",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/chat.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "camera",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/camera.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "calendar",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/calendar.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "calculator",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/calculator.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "books",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/books.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "bank-card",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/bank-card.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "curved-arrow-left",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/curved-arrow-left.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "back-arrow",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/back-arrow.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "attach",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/attach.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "arrows-right",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/arrows-right.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "arrows-left",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/arrows-left.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "arrow-up",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/arrow-up.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "arrow-sm-up",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/arrow-sm-up.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "arrow-sm-right",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/arrow-sm-right.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "arrow-sm-left",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/arrow-sm-left.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "arrow-sm-down",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/arrow-sm-down.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "arrow-right",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/arrow-right.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "arrow-link",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/arrow-link.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "arrow-link-back",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/arrow-link-back.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "arrow-link-down",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/arrow-link-down.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "arrow-left",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/arrow-left.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "arrow-down",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/arrow-down.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "add-user",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/add-user.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "recipe",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/recipe.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "video-off",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/video-off.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "share",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/share.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "hourglass",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/hourglass.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "printer",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/printer.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "bullet-list",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/bullet-list.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "replace",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/replace.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "secure-message",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/secure-message.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "curved-arrow-right",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/curved-arrow-right.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "fullscreen",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/fullscreen.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "subtitles",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/subtitles.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "ban",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/ban.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "enlarge",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/enlarge.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "collapse",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/collapse.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "target",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/target.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "qr-code",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/qr-code.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "warning",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/warning.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "placeholder",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/placeholder.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "sun",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/sun.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "moon",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/moon.svg"
+    },
+    {
+        "group": "ui",
+        "size": "32",
+        "name": "dark-mode",
+        "url": "https://static.design.if.eu/ids-icon/groups/ui/32/dark-mode.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "wrench-tool",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/wrench-tool.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "worker",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/worker.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "woman-symbol",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/woman-symbol.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "woman",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/woman.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "trophy",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/trophy.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "star-filled",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/star-filled.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "star",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/star.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "spa",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/spa.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "single-copy",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/single-copy.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "single-body",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/single-body.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "security",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/security.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "return-policy",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/return-policy.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "responsive",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/responsive.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "report-claim",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/report-claim.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "receipt",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/receipt.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "percent-badge",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/percent-badge.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "people",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/people.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "parent",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/parent.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "mobile-chat",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/mobile-chat.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "man-symbol",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/man-symbol.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "man",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/man.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "love",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/love.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "loop",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/loop.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "knight",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/knight.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "interest",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/interest.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "image",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/image.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "heart-person",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/heart-person.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "headphones-mic",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/headphones-mic.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "globe",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/globe.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "flag",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/flag.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "fingerprint",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/fingerprint.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "factory",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/factory.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "energy",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/energy.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "drop",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/drop.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "document",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/document.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "doctor",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/doctor.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "dishwasher",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/dishwasher.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "deductible",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/deductible.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "curve-directions",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/curve-directions.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "compass",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/compass.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "coins",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/coins.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "chatbot",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/chatbot.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "chart",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/chart.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "cc",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/cc.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "cart-return",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/cart-return.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "cargo",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/cargo.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "bulb-on",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/bulb-on.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "bookmark",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/bookmark.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "bill",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/bill.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "bedroom",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/bedroom.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "asterix",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/asterix.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "alarm",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/alarm.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "add-notification",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/add-notification.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "umbrella",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/umbrella.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "hospital",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/hospital.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "medicine",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/medicine.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "stack",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/stack.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "translate",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/translate.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "percentage",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/percentage.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "percent-sign",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/percent-sign.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "todo",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/todo.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "real-estate",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/real-estate.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "signature",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/signature.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "sustainability",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/sustainability.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "ai-filled",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/ai-filled.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "32",
+        "name": "ai-gradient",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/32/ai-gradient.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "single-body",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/single-body.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "security",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/security.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "return-policy",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/return-policy.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "responsive",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/responsive.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "report-claim",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/report-claim.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "receipt",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/receipt.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "people",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/people.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "mobile-chat",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/mobile-chat.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "man-symbol",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/man-symbol.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "man",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/man.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "love",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/love.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "loop",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/loop.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "knight",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/knight.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "interest",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/interest.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "image",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/image.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "heart-person",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/heart-person.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "headphones-mic",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/headphones-mic.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "globe",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/globe.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "flag",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/flag.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "fingerprint",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/fingerprint.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "factory",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/factory.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "energy",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/energy.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "drop",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/drop.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "document",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/document.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "dishwasher",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/dishwasher.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "deductible",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/deductible.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "curve-directions",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/curve-directions.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "compass",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/compass.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "chatbot",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/chatbot.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "cc",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/cc.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "cart-return",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/cart-return.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "bulb-on",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/bulb-on.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "bill",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/bill.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "alarm",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/alarm.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "add-notification",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/add-notification.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "chart",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/chart.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "worker",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/worker.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "cargo",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/cargo.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "bedroom",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/bedroom.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "umbrella",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/umbrella.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "coins",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/coins.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "doctor",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/doctor.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "hospital",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/hospital.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "wrench-tool",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/wrench-tool.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "woman-symbol",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/woman-symbol.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "woman",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/woman.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "trophy",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/trophy.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "star-filled",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/star-filled.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "star",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/star.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "spa",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/spa.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "single-copy",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/single-copy.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "percent-badge",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/percent-badge.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "parent",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/parent.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "bookmark",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/bookmark.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "stack",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/stack.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "translate",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/translate.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "percentage",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/percentage.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "percent-sign",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/percent-sign.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "todo",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/todo.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "real-estate",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/real-estate.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "signature",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/signature.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "sustainability",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/sustainability.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "medicine",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/medicine.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "ai-gradient",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/ai-gradient.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "24",
+        "name": "ai-filled",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/24/ai-filled.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "16",
+        "name": "bulb-on",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/16/bulb-on.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "16",
+        "name": "alarm",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/16/alarm.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "16",
+        "name": "worker",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/16/worker.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "16",
+        "name": "cargo",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/16/cargo.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "16",
+        "name": "bedroom",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/16/bedroom.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "16",
+        "name": "umbrella",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/16/umbrella.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "16",
+        "name": "ai-filled",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/16/ai-filled.svg"
+    },
+    {
+        "group": "symbol",
+        "size": "16",
+        "name": "ai-gradient",
+        "url": "https://static.design.if.eu/ids-icon/groups/symbol/16/ai-gradient.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "traffic",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/traffic.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "tablet",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/tablet.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "watch",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/watch.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "laptop",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/laptop.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "it-security",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/it-security.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "smartphone",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/smartphone.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "if-start",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/if-start.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "legal",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/legal.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "health",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/health.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "patch",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/patch.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "glasses",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/glasses.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "heart",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/heart.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "critical-illness",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/critical-illness.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "life",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/life.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "out-of-work-sickness",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/out-of-work-sickness.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "sickness",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/sickness.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "sport",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/sport.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "pregnancy",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/pregnancy.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "child",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/child.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "death",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/death.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "child-2-25yo",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/child-2-25yo.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "student",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/student.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "paw",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/paw.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "cat",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/cat.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "dog",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/dog.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "horse",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/horse.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "car",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/car.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "forklift",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/forklift.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "vehicles",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/vehicles.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "van",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/van.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "truck",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/truck.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "trailer",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/trailer.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "tractor",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/tractor.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "large-truck",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/large-truck.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "collection-truck",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/collection-truck.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "used-car",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/used-car.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "location",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/location.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "globe",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/globe.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "bag",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/bag.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "au-pair",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/au-pair.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "one-way-ticket",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/one-way-ticket.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "time-share-abroad",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/time-share-abroad.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "plane",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/plane.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "moped",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/moped.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "minicar",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/minicar.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "mc",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/mc.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "marine-cargo",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/marine-cargo.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "snowmobile",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/snowmobile.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "ship",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/ship.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "boat",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/boat.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "atv",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/atv.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "moped-car",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/moped-car.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "small-boat",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/small-boat.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "scooter",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/scooter.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "home",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/home.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "water-damage",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/water-damage.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "flooding",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/flooding.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "furnished-property",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/furnished-property.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "company",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/company.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "apartment",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/apartment.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "cottage",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/cottage.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "building",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/building.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "theft-burglary",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/theft-burglary.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "change-of-ownership",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/change-of-ownership.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "semi-detached-house",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/semi-detached-house.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "terraced-house",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/terraced-house.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "antique-car",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/antique-car.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "cement-truck",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/cement-truck.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "caravan",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/caravan.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "bike",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/bike.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "bulldozer",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/bulldozer.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "camper",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/camper.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "bus",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/bus.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "assistance",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/assistance.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "stock",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/stock.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "ai",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/ai.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "forest",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/forest.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "liability",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/liability.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "strike",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/strike.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "cloud-light",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/cloud-light.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "camera-flash",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/camera-flash.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "handout",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/handout.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "diamond",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/diamond.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "adult-50-plus",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/adult-50-plus.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "adult-60-plus",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/adult-60-plus.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "bodyshop",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/bodyshop.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "moped-eu",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/moped-eu.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "company-daughter",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/company-daughter.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "company-division",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/company-division.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "e-bike",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/e-bike.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "segway",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/segway.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "e-scooter",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/e-scooter.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "senior-scooter",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/senior-scooter.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "e-scooter-seated",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/e-scooter-seated.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "electric-car",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/electric-car.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "decontamination",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/decontamination.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "jet-ski",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/jet-ski.svg"
+    },
+    {
+        "group": "product",
+        "size": "32",
+        "name": "pet",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/32/pet.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "traffic",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/traffic.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "tablet",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/tablet.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "watch",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/watch.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "laptop",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/laptop.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "it-security",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/it-security.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "smartphone",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/smartphone.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "if-start",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/if-start.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "legal",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/legal.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "health",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/health.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "patch",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/patch.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "glasses",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/glasses.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "heart",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/heart.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "critical-illness",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/critical-illness.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "life",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/life.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "out-of-work-sickness",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/out-of-work-sickness.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "sickness",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/sickness.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "sport",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/sport.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "pregnancy",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/pregnancy.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "child",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/child.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "death",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/death.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "child-2-25yo",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/child-2-25yo.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "student",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/student.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "paw",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/paw.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "cat",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/cat.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "dog",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/dog.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "horse",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/horse.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "car",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/car.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "forklift",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/forklift.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "vehicles",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/vehicles.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "van",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/van.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "truck",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/truck.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "trailer",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/trailer.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "tractor",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/tractor.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "large-truck",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/large-truck.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "collection-truck",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/collection-truck.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "used-car",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/used-car.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "location",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/location.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "globe",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/globe.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "bag",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/bag.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "au-pair",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/au-pair.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "one-way-ticket",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/one-way-ticket.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "time-share-abroad",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/time-share-abroad.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "plane",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/plane.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "moped",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/moped.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "minicar",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/minicar.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "mc",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/mc.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "marine-cargo",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/marine-cargo.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "snowmobile",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/snowmobile.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "ship",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/ship.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "boat",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/boat.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "atv",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/atv.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "moped-car",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/moped-car.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "small-boat",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/small-boat.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "scooter",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/scooter.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "home",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/home.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "water-damage",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/water-damage.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "flooding",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/flooding.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "furnished-property",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/furnished-property.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "company",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/company.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "apartment",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/apartment.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "cottage",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/cottage.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "building",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/building.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "theft-burglary",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/theft-burglary.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "change-of-ownership",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/change-of-ownership.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "semi-detached-house",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/semi-detached-house.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "terraced-house",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/terraced-house.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "antique-car",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/antique-car.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "cement-truck",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/cement-truck.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "caravan",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/caravan.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "bike",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/bike.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "bulldozer",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/bulldozer.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "camper",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/camper.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "bus",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/bus.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "assistance",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/assistance.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "stock",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/stock.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "ai",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/ai.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "forest",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/forest.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "liability",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/liability.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "strike",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/strike.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "cloud-light",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/cloud-light.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "camera-flash",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/camera-flash.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "handout",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/handout.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "diamond",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/diamond.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "adult-50-plus",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/adult-50-plus.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "adult-60-plus",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/adult-60-plus.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "bodyshop",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/bodyshop.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "moped-eu",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/moped-eu.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "company-daughter",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/company-daughter.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "company-division",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/company-division.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "e-bike",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/e-bike.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "segway",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/segway.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "e-scooter",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/e-scooter.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "senior-scooter",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/senior-scooter.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "e-scooter-seated",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/e-scooter-seated.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "electric-car",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/electric-car.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "decontamination",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/decontamination.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "jet-ski",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/jet-ski.svg"
+    },
+    {
+        "group": "product",
+        "size": "24",
+        "name": "pet",
+        "url": "https://static.design.if.eu/ids-icon/groups/product/24/pet.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "world-pin",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/world-pin.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "windshield-damage",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/windshield-damage.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "wheel",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/wheel.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "wallet",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/wallet.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "vermin",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/vermin.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "tv-stand",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/tv-stand.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "tooth",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/tooth.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "snow",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/snow.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "small-child",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/small-child.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "school",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/school.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "sanitation",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/sanitation.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "rental-car",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/rental-car.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "power-failure",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/power-failure.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "parking",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/parking.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "misfuellling",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/misfuellling.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "lost-bagage",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/lost-bagage.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "law",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/law.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "heating-system",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/heating-system.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "glass-damage",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/glass-damage.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "fridge",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/fridge.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "flight-delayed",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/flight-delayed.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "flight-cancelled",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/flight-cancelled.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "faq-bubble",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/faq-bubble.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "evacuation",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/evacuation.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "engine",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/engine.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "disability",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/disability.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "care",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/care.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "car-vandalism",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/car-vandalism.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "car-fire",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/car-fire.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "car-collision",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/car-collision.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "building-damage",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/building-damage.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "boat-sinking",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/boat-sinking.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "boat-grounding",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/boat-grounding.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "boat-collision",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/boat-collision.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "bagage-delay",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/bagage-delay.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "animal",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/animal.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "candle",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/candle.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "theft",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/theft.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "car-seat",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/car-seat.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "garage",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/garage.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "factory-fire",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/factory-fire.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "mind",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/mind.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "physiotherapy",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/physiotherapy.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "accident",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/accident.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "solar-energy",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/solar-energy.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "decline",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/decline.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "insurance",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/insurance.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "wind-energy",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/wind-energy.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "health-insurance",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/health-insurance.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "hot-work",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/hot-work.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "worldwide-delivery",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/worldwide-delivery.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "warehouse",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/warehouse.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "air-freight",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/air-freight.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "train",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/train.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "32",
+        "name": "supply-chain",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/32/supply-chain.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "world-pin",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/world-pin.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "windshield-damage",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/windshield-damage.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "wheel",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/wheel.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "wallet",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/wallet.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "vermin",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/vermin.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "tv-stand",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/tv-stand.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "tooth",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/tooth.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "snow",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/snow.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "small-child",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/small-child.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "school",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/school.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "sanitation",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/sanitation.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "rental-car",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/rental-car.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "power-failure",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/power-failure.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "parking",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/parking.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "misfuellling",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/misfuellling.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "lost-bagage",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/lost-bagage.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "law",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/law.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "heating-system",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/heating-system.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "glass-damage",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/glass-damage.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "fridge",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/fridge.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "flight-delayed",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/flight-delayed.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "flight-cancelled",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/flight-cancelled.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "faq-bubble",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/faq-bubble.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "evacuation",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/evacuation.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "engine",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/engine.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "disability",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/disability.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "care",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/care.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "car-fire",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/car-fire.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "car-collision",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/car-collision.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "building-damage",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/building-damage.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "boat-sinking",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/boat-sinking.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "boat-collision",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/boat-collision.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "boat-grounding",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/boat-grounding.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "bagage-delay",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/bagage-delay.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "animal",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/animal.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "car-vandalism",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/car-vandalism.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "candle",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/candle.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "car-seat",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/car-seat.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "garage",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/garage.svg"
+    },
+    {
+        "group": "coverage",
+        "size": "24",
+        "name": "theft",
+        "url": "https://static.design.if.eu/ids-icon/groups/coverage/24/theft.svg"
+    },
+    {
+        "group": "social",
+        "size": "24",
+        "name": "youtube",
+        "url": "https://static.design.if.eu/ids-icon/groups/social/24/youtube.svg"
+    },
+    {
+        "group": "social",
+        "size": "24",
+        "name": "twitter",
+        "url": "https://static.design.if.eu/ids-icon/groups/social/24/twitter.svg"
+    },
+    {
+        "group": "social",
+        "size": "24",
+        "name": "x",
+        "url": "https://static.design.if.eu/ids-icon/groups/social/24/x.svg"
+    },
+    {
+        "group": "social",
+        "size": "24",
+        "name": "linkedin",
+        "url": "https://static.design.if.eu/ids-icon/groups/social/24/linkedin.svg"
+    },
+    {
+        "group": "social",
+        "size": "24",
+        "name": "instagram",
+        "url": "https://static.design.if.eu/ids-icon/groups/social/24/instagram.svg"
+    },
+    {
+        "group": "social",
+        "size": "24",
+        "name": "facebook",
+        "url": "https://static.design.if.eu/ids-icon/groups/social/24/facebook.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "reversed-umbrella",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/reversed-umbrella.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "archive",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/archive.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "bill",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/bill.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "love-letter",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/love-letter.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "letter",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/letter.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "checkmark-success",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/checkmark-success.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "submitted-claim",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/submitted-claim.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "submitted-document",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/submitted-document.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "calendar-success",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/calendar-success.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "aim",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/aim.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "sending-message",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/sending-message.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "loading-fail",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/loading-fail.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "missing-document",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/missing-document.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "missing-letter",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/missing-letter.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "empty-tyre",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/empty-tyre.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "plug",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/plug.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "ice-cream",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/ice-cream.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "flower-wilted",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/flower-wilted.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "cloud-upload",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/cloud-upload.svg"
+    },
+    {
+        "group": "pictogram",
+        "size": "64",
+        "name": "lock",
+        "url": "https://static.design.if.eu/ids-icon/groups/pictogram/64/lock.svg"
+    }
+]
