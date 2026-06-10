@@ -82,6 +82,9 @@ function buildKnowledgeResponse(query: string, intent: ChatIntent, item: Knowled
   const primaryContact = getPerson(item.primaryContactId);
   const backupContact = getPerson(item.backupContactId);
   const relatedSystems = getRelatedSystems(item).map(itemSummary);
+  const answerText = item.kind === "process"
+    ? item.label + ": " + item.summary + " " + primaryContact.name + " is the primary contact, with " + backupContact.name + " as backup."
+    : ownerVerb(item) + " " + primaryContact.name + " is the primary contact, with " + backupContact.name + " as backup.";
 
   return {
     query,
