@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 import { FormEvent, useMemo, useRef, useState } from "react";
-import { demoQuestions, type ChatResponse } from "@/lib/orgpilot-data";
+import { exampleQuestions } from "@/lib/chat/mockData";
+import { type ChatResponse, type ConversationContext } from "@/lib/chat/responseBuilder";
 
 type Message = {
   id: string;
@@ -15,8 +16,14 @@ const starterMessages: Message[] = [
   {
     id: "welcome",
     role: "assistant",
-    text: "Ask me who owns a service, project, process, or skill. I use mock org data for this demo and return contacts, evidence, and confidence.",
+    text: "Hello! I'm OrgPilot. Ask me to find system owners, teams, experts, projects, or internal processes.",
   },
+];
+
+const thinkingMessages = [
+  "Searching organizational knowledge...",
+  "Looking up service ownership...",
+  "Reviewing project activity...",
 ];
 
 const iconPaths = {
@@ -70,7 +77,7 @@ function PersonCard({
   person,
 }: {
   title: string;
-  person: ChatResponse["answer"]["primaryContact"];
+  person: NonNullable<ChatResponse["answer"]["primaryContact"]>;
 }) {
   return (
     <div className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-950">
@@ -97,17 +104,25 @@ function PersonCard({
   );
 }
 
-function AnswerCard({ response }: { response: ChatResponse }) {
+function AnswerCard({
+  response,
+  onAsk,
+}: {
+  response: ChatResponse;
+  onAsk: (question: string) => void;
+}) {
   const { answer } = response;
+  const hasRichAnswer = answer.item && answer.owningTeam;
 
   return (
     <div className="mt-4 space-y-4">
-      <div className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-800 dark:bg-slate-950">
+      {hasRichAnswer ? (
+        <div className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-800 dark:bg-slate-950">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
           <div>
             <div className="flex flex-wrap items-center gap-2">
               <span className="rounded-full bg-[#E8F1FF] px-2.5 py-1 text-xs font-medium capitalize text-[#003A8C] dark:bg-[#06265E] dark:text-[#BFD6FF]">
-                {answer.item.kind}
+                {answer.item?.kind}
               </span>
               {!response.matched ? (
                 <span className="rounded-full bg-amber-100 px-2.5 py-1 text-xs font-medium text-amber-800 dark:bg-amber-950 dark:text-amber-200">
@@ -116,10 +131,10 @@ function AnswerCard({ response }: { response: ChatResponse }) {
               ) : null}
             </div>
             <h2 className="mt-3 text-xl font-semibold text-slate-950 dark:text-white">
-              {answer.item.label}
+              {answer.item?.label}
             </h2>
             <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-slate-300">
-              {answer.item.summary}
+              {answer.item?.summary}
             </p>
           </div>
           <div className="min-w-32 rounded-lg bg-[#F6F9FF] p-3 dark:bg-slate-900">
@@ -133,8 +148,8 @@ function AnswerCard({ response }: { response: ChatResponse }) {
             </div>
             <div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
               <div
-                className={`h-full rounded-full ${confidenceTone(answer.confidence)}`}
-                style={{ width: `${answer.confidence}%` }}
+                className={`h-full rounded-full ${confidenceTone(answer.confidence ?? 0)}`}
+                style={{ width: `${answer.confidence ?? 0}%` }}
               />
             </div>
           </div>
@@ -146,20 +161,24 @@ function AnswerCard({ response }: { response: ChatResponse }) {
             Owning team
           </p>
           <p className="mt-2 font-semibold text-slate-950 dark:text-white">
-            {answer.owningTeam.name}
+            {answer.owningTeam?.name}
           </p>
           <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">
-            {answer.owningTeam.domain} · {answer.owningTeam.channel}
+            {answer.owningTeam?.domain} · {answer.owningTeam?.channel}
           </p>
         </div>
       </div>
+      ) : null}
 
-      <div className="grid gap-4 md:grid-cols-2">
-        <PersonCard title="Primary contact" person={answer.primaryContact} />
-        <PersonCard title="Backup contact" person={answer.backupContact} />
-      </div>
+      {answer.primaryContact && answer.backupContact ? (
+        <div className="grid gap-4 md:grid-cols-2">
+          <PersonCard title="Primary contact" person={answer.primaryContact} />
+          <PersonCard title="Backup contact" person={answer.backupContact} />
+        </div>
+      ) : null}
 
-      <div className="grid gap-3 md:grid-cols-3">
+      {answer.evidence?.length ? (
+        <div className="grid gap-3 md:grid-cols-3">
         {answer.evidence.map((source) => (
           <a
             key={`${source.type}-${source.title}`}
@@ -177,6 +196,26 @@ function AnswerCard({ response }: { response: ChatResponse }) {
           </a>
         ))}
       </div>
+      ) : null}
+
+      {answer.relatedSystems?.length ? (
+        <div className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-950">
+          <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+            <Icon name="link" />
+            Related services
+          </p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {answer.relatedSystems.map((system) => (
+              <span
+                key={system.id}
+                className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-700 dark:bg-slate-900 dark:text-slate-200"
+              >
+                {system.label}
+              </span>
+            ))}
+          </div>
+        </div>
+      ) : null}
 
       {answer.possibleMatches?.length ? (
         <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 dark:border-amber-900 dark:bg-amber-950/40">
@@ -197,7 +236,7 @@ function AnswerCard({ response }: { response: ChatResponse }) {
       ) : null}
 
       <div className="flex flex-wrap gap-2">
-        {answer.actions.map((action) => (
+        {answer.actions?.map((action) => (
           <a
             key={action.label}
             href={action.url}
@@ -208,6 +247,26 @@ function AnswerCard({ response }: { response: ChatResponse }) {
           </a>
         ))}
       </div>
+
+      {answer.suggestions.length ? (
+        <div className="rounded-lg border border-slate-200 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-900">
+          <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+            Suggested questions
+          </p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {answer.suggestions.slice(0, 3).map((suggestion) => (
+              <button
+                key={suggestion}
+                type="button"
+                onClick={() => onAsk(suggestion)}
+                className="rounded-lg border border-slate-200 bg-white px-3 py-2 text-left text-xs font-semibold text-slate-700 shadow-sm transition hover:border-[#0054F0] hover:text-[#0054F0] dark:border-slate-800 dark:bg-slate-950 dark:text-slate-200"
+              >
+                {suggestion}
+              </button>
+            ))}
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }
@@ -216,10 +275,12 @@ export default function Home() {
   const [messages, setMessages] = useState<Message[]>(starterMessages);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [thinkingText, setThinkingText] = useState(thinkingMessages[0]);
+  const [conversationContext, setConversationContext] = useState<ConversationContext>({});
   const inputRef = useRef<HTMLInputElement>(null);
   const messageCounter = useRef(0);
 
-  const recentQuestions = useMemo(() => demoQuestions.slice(0, 10), []);
+  const recentQuestions = useMemo(() => exampleQuestions.slice(6, 16), []);
 
   function nextMessageId(prefix: string) {
     messageCounter.current += 1;
@@ -239,19 +300,24 @@ export default function Home() {
     setMessages((current) => [...current, userMessage]);
     setInput("");
     setIsLoading(true);
+    setThinkingText(thinkingMessages[messageCounter.current % thinkingMessages.length]);
 
     try {
-      const result = await fetch("/api/chat", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: trimmed }),
-      });
+      const [result] = await Promise.all([
+        fetch("/api/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message: trimmed, context: conversationContext }),
+        }),
+        new Promise((resolve) => setTimeout(resolve, 1200)),
+      ]);
 
       if (!result.ok) {
         throw new Error("Chat request failed");
       }
 
       const response = (await result.json()) as ChatResponse;
+      setConversationContext(response.context);
       setMessages((current) => [
         ...current,
         {
@@ -267,7 +333,7 @@ export default function Home() {
         {
           id: nextMessageId("assistant-error"),
           role: "assistant",
-          text: "I could not read the mock org graph right now. Try another demo question.",
+          text: "I couldn't complete that lookup just now. Try asking by service, team, project, or process name.",
         },
       ]);
     } finally {
@@ -296,7 +362,7 @@ export default function Home() {
               </p>
             </div>
             <span className="rounded-full bg-[#E8F1FF] px-3 py-1 text-xs font-bold uppercase tracking-wide text-[#0054F0] dark:bg-[#06265E] dark:text-[#BFD6FF]">
-              Demo mode
+              OrgPilot
             </span>
           </div>
 
@@ -349,7 +415,7 @@ export default function Home() {
                     Ask a plain-language ownership question.
                   </h2>
                   <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600 dark:text-slate-300">
-                    If Helper Hub turns messy internal clues into an answer card with likely owner, backup, confidence, and the mock evidence behind the recommendation.
+                    OrgPilot turns messy internal clues into an answer card with likely owner, backup, confidence, and source evidence behind the recommendation.
                   </p>
                 </div>
               ) : null}
@@ -366,8 +432,8 @@ export default function Home() {
                         : "border border-slate-200 bg-white text-slate-800 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-100"
                     }`}
                   >
-                    <p className="text-sm leading-6">{message.text}</p>
-                    {message.response ? <AnswerCard response={message.response} /> : null}
+                    <p className="whitespace-pre-line text-sm leading-6">{message.text}</p>
+                    {message.response ? <AnswerCard response={message.response} onAsk={askQuestion} /> : null}
                   </div>
                 </div>
               ))}
@@ -376,7 +442,7 @@ export default function Home() {
                 <div className="flex justify-start">
                   <div className="rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm text-slate-600 shadow-sm dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300">
                     <span className="mr-2 inline-block size-2 animate-pulse rounded-full bg-[#0054F0]" />
-                    Thinking through mock evidence...
+                    {thinkingText}
                   </div>
                 </div>
               ) : null}
