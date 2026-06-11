@@ -38,12 +38,6 @@ const iconPaths = {
   user: "/icons/ui/24/user.svg",
 } as const;
 
-function confidenceTone(value: number) {
-  if (value >= 85) return "bg-[#217331]";
-  if (value >= 70) return "bg-[#B35A00]";
-  return "bg-slate-400";
-}
-
 function Icon({
   name,
   className = "size-4",
@@ -70,186 +64,95 @@ function actionIcon(label: string): keyof typeof iconPaths {
   return "link";
 }
 
-function PersonCard({
-  title,
-  person,
-}: {
-  title: string;
-  person: NonNullable<ChatResponse["answer"]["primaryContact"]>;
-}) {
-  return (
-    <div className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-950">
-      <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-        <Icon name="user" />
-        {title}
-      </p>
-      <div className="mt-3 flex items-start gap-3">
-        <div className="flex size-10 shrink-0 items-center justify-center rounded-full bg-[#E8F1FF] text-sm font-bold text-[#0054F0] dark:bg-[#06265E] dark:text-[#BFD6FF]">
-          {person.name
-            .split(" ")
-            .map((part) => part[0])
-            .join("")}
-        </div>
-        <div className="min-w-0">
-          <p className="font-semibold text-slate-950 dark:text-white">{person.name}</p>
-          <p className="text-sm text-slate-600 dark:text-slate-300">{person.role}</p>
-          <p className="mt-1 truncate text-xs text-slate-500 dark:text-slate-400">
-            {person.email} · {person.location}
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 function AnswerCard({
   response,
-  onAsk,
 }: {
   response: ChatResponse;
-  onAsk: (question: string) => void;
 }) {
   const { answer } = response;
   const hasRichAnswer = answer.item && answer.owningTeam;
+  const scopeText = answer.scope?.scopeType === "country" ? answer.scope.country : "Global";
 
   return (
-    <div className="mt-3 space-y-3 md:mt-4 md:space-y-4">
+    <div className="mt-3 md:mt-4">
       {hasRichAnswer ? (
-        <div className="rounded-lg bg-white p-4 shadow-sm md:border md:border-slate-200 md:p-5 dark:border-slate-800 dark:bg-slate-950">
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-          <div>
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="rounded-full bg-[#E8F1FF] px-2.5 py-1 text-xs font-medium capitalize text-[#003A8C] dark:bg-[#06265E] dark:text-[#BFD6FF]">
-                {answer.item?.kind}
-              </span>
-              {answer.scope ? (
-                <span className="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-300">
-                  {answer.scope.scopeType === "country" ? answer.scope.country : "Global"}
-                </span>
-              ) : null}
-              {!response.matched ? (
-                <span className="rounded-full bg-amber-100 px-2.5 py-1 text-xs font-medium text-amber-800 dark:bg-amber-950 dark:text-amber-200">
-                  Possible match
-                </span>
-              ) : null}
-            </div>
-            <h2 className="mt-3 text-xl font-semibold text-slate-950 dark:text-white">
+        <div className="rounded-lg bg-white p-3 shadow-sm md:border md:border-slate-200 md:p-4 dark:border-slate-800 dark:bg-slate-950">
+          <div className="flex flex-col gap-1">
+            <h2 className="text-base font-semibold text-slate-950 md:text-lg dark:text-white">
               {answer.item?.label}
             </h2>
-            <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-slate-300">
-              {answer.item?.summary}
-            </p>
-          </div>
-          <div className="min-w-32 rounded-lg bg-[#F6F9FF] p-3 dark:bg-slate-900">
-            <div className="flex items-center justify-between gap-3">
-              <span className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-                Confidence
-              </span>
-              <span className="text-lg font-bold text-slate-950 dark:text-white">
-                {answer.confidence}%
-              </span>
-            </div>
-            <div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
-              <div
-                className={`h-full rounded-full ${confidenceTone(answer.confidence ?? 0)}`}
-                style={{ width: `${answer.confidence ?? 0}%` }}
-              />
+            <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-slate-500 dark:text-slate-400">
+              <span className="capitalize">{answer.item?.kind}</span>
+              <span aria-hidden="true">·</span>
+              <span>{scopeText}</span>
+              <span aria-hidden="true">·</span>
+              <span>{answer.confidence}% confidence</span>
+              {!response.matched ? (
+                <>
+                  <span aria-hidden="true">·</span>
+                  <span className="text-amber-700 dark:text-amber-300">Possible match</span>
+                </>
+              ) : null}
             </div>
           </div>
-        </div>
 
-        <div className="mt-4 rounded-lg bg-slate-50 p-3 md:mt-5 md:border md:border-slate-200 md:p-4 dark:border-slate-800 dark:bg-slate-900">
-          <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-            <Icon name="people" />
-            Owning team
-          </p>
-          <p className="mt-2 font-semibold text-slate-950 dark:text-white">
-            {answer.owningTeam?.name}
-          </p>
-          <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">
-            {answer.owningTeam?.domain} · {answer.owningTeam?.channel}
-          </p>
-        </div>
-      </div>
-      ) : null}
-
-      {answer.primaryContact && answer.backupContact ? (
-        <div className="grid gap-3 md:grid-cols-2 md:gap-4">
-          <PersonCard title="Primary contact" person={answer.primaryContact} />
-          <PersonCard title="Backup contact" person={answer.backupContact} />
-        </div>
-      ) : null}
-
-      {answer.evidence?.length ? (
-        <div className="grid gap-3 md:grid-cols-3">
-        {answer.evidence.map((source) => (
-          <a
-            key={`${source.type}-${source.title}`}
-            href={source.url}
-            className="rounded-lg bg-white p-3 shadow-sm transition hover:-translate-y-0.5 hover:border-[#0054F0] hover:shadow-md md:border md:border-slate-200 md:p-4 dark:border-slate-800 dark:bg-slate-950 dark:hover:border-[#6EA2FF]"
-          >
-            <span className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-[#0054F0] dark:text-[#9FC2FF]">
-              <Icon name="document" />
-              {source.type}
-            </span>
-            <p className="mt-2 font-semibold text-slate-950 dark:text-white">{source.title}</p>
-            <p className="mt-2 text-sm leading-5 text-slate-600 dark:text-slate-300">
-              {source.detail}
+          <div className="mt-3 space-y-1.5 text-sm leading-5 text-slate-700 dark:text-slate-200">
+            <p>
+              <span className="font-medium text-slate-950 dark:text-white">Owner team:</span> {answer.owningTeam?.name}
             </p>
-          </a>
-        ))}
-      </div>
-      ) : null}
-
-      {answer.relatedSystems?.length ? (
-        <div className="rounded-lg bg-white p-3 shadow-sm md:border md:border-slate-200 md:p-4 dark:border-slate-800 dark:bg-slate-950">
-          <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-            <Icon name="link" />
-            Related services
-          </p>
-          <div className="mt-3 flex flex-wrap gap-2">
-            {answer.relatedSystems.map((system) => (
-              <span
-                key={system.id}
-                className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-700 dark:bg-slate-900 dark:text-slate-200"
-              >
-                {system.label}
-              </span>
-            ))}
+            {answer.primaryContact ? (
+              <p>
+                <span className="font-medium text-slate-950 dark:text-white">Primary:</span> {answer.primaryContact.name} · {answer.primaryContact.role}
+              </p>
+            ) : null}
+            {answer.backupContact ? (
+              <p>
+                <span className="font-medium text-slate-950 dark:text-white">Backup:</span> {answer.backupContact.name} · {answer.backupContact.role}
+              </p>
+            ) : null}
           </div>
-        </div>
-      ) : null}
 
-      <div className="flex flex-wrap gap-2">
-        {answer.actions?.map((action) => (
-          <a
-            key={action.label}
-            href={action.url}
-            className="inline-flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-700 shadow-sm transition hover:border-[#0054F0] hover:text-[#0054F0] dark:border-slate-800 dark:bg-slate-950 dark:text-slate-200 dark:hover:border-[#6EA2FF] dark:hover:text-[#9FC2FF]"
-          >
-            <Icon name={actionIcon(action.label)} />
-            {action.label}
-          </a>
-        ))}
-      </div>
-
-      {answer.suggestions.length ? (
-        <div className="rounded-lg bg-slate-50 p-3 md:border md:border-slate-200 md:p-4 dark:border-slate-800 dark:bg-slate-900">
-          <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-            Suggested questions
+          <p className="mt-3 text-xs leading-5 text-slate-500 md:text-sm dark:text-slate-400">
+            {answer.item?.summary}
           </p>
-          <div className="mt-3 flex flex-wrap gap-2">
-            {answer.suggestions.slice(0, 3).map((suggestion) => (
-              <button
-                key={suggestion}
-                type="button"
-                onClick={() => onAsk(suggestion)}
-                className="rounded-lg border border-slate-200 bg-white px-3 py-2 text-left text-xs font-semibold text-slate-700 shadow-sm transition hover:border-[#0054F0] hover:text-[#0054F0] dark:border-slate-800 dark:bg-slate-950 dark:text-slate-200"
-              >
-                {suggestion}
-              </button>
-            ))}
-          </div>
+
+          {answer.evidence?.length || answer.actions?.length ? (
+            <div className="mt-3 hidden border-t border-slate-100 pt-3 md:block dark:border-slate-800">
+              {answer.evidence?.length ? (
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Sources</p>
+                  <div className="mt-2 flex flex-wrap gap-2">
+                    {answer.evidence.slice(0, 3).map((source) => (
+                      <a
+                        key={`${source.type}-${source.title}`}
+                        href={source.url}
+                        className="inline-flex items-center gap-1.5 rounded-md bg-slate-50 px-2 py-1 text-xs font-medium text-slate-600 transition hover:text-[#0054F0] dark:bg-slate-900 dark:text-slate-300 dark:hover:text-[#9FC2FF]"
+                        title={source.detail}
+                      >
+                        <Icon name="document" className="size-3" />
+                        {source.title}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              ) : null}
+
+              {answer.actions?.length ? (
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {answer.actions.slice(0, 2).map((action) => (
+                    <a
+                      key={action.label}
+                      href={action.url}
+                      className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0054F0] transition hover:text-[#003A8C] dark:text-[#9FC2FF]"
+                    >
+                      <Icon name={actionIcon(action.label)} className="size-3.5" />
+                      {action.label}
+                    </a>
+                  ))}
+                </div>
+              ) : null}
+            </div>
+          ) : null}
         </div>
       ) : null}
     </div>
@@ -401,7 +304,7 @@ export default function Home() {
                     }`}
                   >
                     <p className="whitespace-pre-line text-sm leading-5 md:leading-6">{message.text}</p>
-                    {message.response ? <AnswerCard response={message.response} onAsk={askQuestion} /> : null}
+                    {message.response ? <AnswerCard response={message.response} /> : null}
                   </div>
                 </div>
               ))}

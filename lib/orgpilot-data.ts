@@ -73,7 +73,7 @@ export const people: Person[] = [
   {
     id: "alice-johnson",
     name: "Alice Johnson",
-    role: "Principal Engineer",
+    role: "Product Owner",
     teamId: "claims-platform",
     location: "Oslo",
     skills: ["claims APIs", "Node.js", "service ownership", "incident response"],
@@ -82,7 +82,7 @@ export const people: Person[] = [
   {
     id: "george-kapoya",
     name: "George Kapoya",
-    role: "Staff Backend Engineer",
+    role: "Solutions Developer",
     teamId: "claims-platform",
     location: "Helsinki",
     skills: ["payments", "claims orchestration", "Java", "Azure"],
@@ -91,7 +91,7 @@ export const people: Person[] = [
   {
     id: "kristians-voronics",
     name: "Voroņičs, Kristiāns",
-    role: "Backend Engineer",
+    role: "Solutions Developer",
     teamId: "claims-platform",
     location: "Tampere",
     skills: ["claims APIs", "Java", "incident response"],
@@ -100,7 +100,7 @@ export const people: Person[] = [
   {
     id: "lassi-voutilainen",
     name: "Voutilainen, Lassi",
-    role: "Cloud Engineer",
+    role: "Platform Owner",
     teamId: "cloud-governance",
     location: "Helsinki",
     skills: ["Azure subscriptions", "policy as code", "landing zones"],
@@ -109,7 +109,7 @@ export const people: Person[] = [
   {
     id: "jyri-jarvinen",
     name: "Järvinen, Jyri",
-    role: "Data Engineer",
+    role: "Solutions Developer",
     teamId: "data-enablement",
     location: "Tampere",
     skills: ["Snowflake", "dbt", "data contracts"],
@@ -118,7 +118,7 @@ export const people: Person[] = [
   {
     id: "jiaqi-yang",
     name: "Yang, Jiaqi",
-    role: "Partner Integration Engineer",
+    role: "Solutions Developer",
     teamId: "partner-integrations",
     location: "Copenhagen",
     skills: ["partner APIs", "OAuth", "developer portals"],
@@ -136,7 +136,7 @@ export const people: Person[] = [
   {
     id: "samir-patel",
     name: "Samir Patel",
-    role: "Cloud Platform Lead",
+    role: "Lead Architect",
     teamId: "cloud-governance",
     location: "Helsinki",
     skills: ["landing zones", "policy as code", "security reviews"],
@@ -145,7 +145,7 @@ export const people: Person[] = [
   {
     id: "nina-holm",
     name: "Nina Holm",
-    role: "Product Design Lead",
+    role: "Chapter Lead",
     teamId: "customer-mobile",
     location: "Stockholm",
     skills: ["mobile redesign", "design systems", "research synthesis"],
@@ -154,7 +154,7 @@ export const people: Person[] = [
   {
     id: "marcus-lee",
     name: "Marcus Lee",
-    role: "Senior iOS Engineer",
+    role: "Solutions Developer",
     teamId: "customer-mobile",
     location: "Stockholm",
     skills: ["SwiftUI", "Kotlin Multiplatform", "mobile architecture"],
@@ -163,7 +163,7 @@ export const people: Person[] = [
   {
     id: "priya-nair",
     name: "Priya Nair",
-    role: "API Product Owner",
+    role: "Product Owner",
     teamId: "partner-integrations",
     location: "Copenhagen",
     skills: ["partner APIs", "OAuth", "developer portals"],
@@ -172,7 +172,7 @@ export const people: Person[] = [
   {
     id: "tom-bakker",
     name: "Tom Bakker",
-    role: "Data Platform Engineer",
+    role: "Platform Owner",
     teamId: "data-enablement",
     location: "Oslo",
     skills: ["Snowflake", "dbt", "data contracts", "lineage"],
@@ -181,7 +181,7 @@ export const people: Person[] = [
   {
     id: "aino-korhonen",
     name: "Aino Korhonen",
-    role: "Claims Platform Lead",
+    role: "Service Owner",
     teamId: "claims-platform-finland",
     location: "Helsinki",
     skills: ["claims APIs", "Finland market", "incident response"],
@@ -190,7 +190,7 @@ export const people: Person[] = [
   {
     id: "erik-lund",
     name: "Erik Lund",
-    role: "Claims Product Owner",
+    role: "Product Owner",
     teamId: "claims-platform-norway",
     location: "Oslo",
     skills: ["claims APIs", "Norway market", "service ownership"],
@@ -199,7 +199,7 @@ export const people: Person[] = [
   {
     id: "maja-andersson",
     name: "Maja Andersson",
-    role: "Claims Engineering Manager",
+    role: "Engineering Manager",
     teamId: "claims-platform-sweden",
     location: "Stockholm",
     skills: ["claims APIs", "Sweden market", "release readiness"],
@@ -208,7 +208,7 @@ export const people: Person[] = [
   {
     id: "freja-nielsen",
     name: "Freja Nielsen",
-    role: "Claims Service Owner",
+    role: "Service Owner",
     teamId: "claims-platform-denmark",
     location: "Copenhagen",
     skills: ["claims APIs", "Denmark market", "operations"],
@@ -217,7 +217,7 @@ export const people: Person[] = [
   {
     id: "veera-laine",
     name: "Veera Laine",
-    role: "Cloud Governance Specialist",
+    role: "Scrum Master",
     teamId: "cloud-governance-finland",
     location: "Espoo",
     skills: ["Azure subscriptions", "PAP approvals", "Finland market"],
@@ -226,7 +226,7 @@ export const people: Person[] = [
   {
     id: "ole-hansen",
     name: "Ole Hansen",
-    role: "Cloud Governance Lead",
+    role: "Lead Architect",
     teamId: "cloud-governance-norway",
     location: "Oslo",
     skills: ["Azure subscriptions", "PAP approvals", "Norway market"],
@@ -235,7 +235,7 @@ export const people: Person[] = [
   {
     id: "elin-svensson",
     name: "Elin Svensson",
-    role: "Cloud Approval Manager",
+    role: "Platform Owner",
     teamId: "cloud-governance-sweden",
     location: "Stockholm",
     skills: ["Azure subscriptions", "PAP approvals", "Sweden market"],
@@ -244,7 +244,7 @@ export const people: Person[] = [
   {
     id: "anders-madsen",
     name: "Anders Madsen",
-    role: "Cloud Governance Partner",
+    role: "Service Owner",
     teamId: "cloud-governance-denmark",
     location: "Copenhagen",
     skills: ["Azure subscriptions", "PAP approvals", "Denmark market"],
