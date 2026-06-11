@@ -1,8 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { FormEvent, useMemo, useRef, useState } from "react";
-import { exampleQuestions } from "@/lib/chat/mockData";
+import { FormEvent, useRef, useState } from "react";
 import { type ChatResponse, type ConversationContext } from "@/lib/chat/responseBuilder";
 
 type Message = {
@@ -16,8 +15,15 @@ const starterMessages: Message[] = [
   {
     id: "welcome",
     role: "assistant",
-    text: "Hello! I'm If Helper Hub. Ask me to find system owners, teams, experts, projects, or internal processes.",
+    text: "Hi, ask me who owns a system, process, or project.",
   },
+];
+
+const promptSuggestions = [
+  { label: "Travel Claims API", question: "Who owns the Travel Claims API?" },
+  { label: "Azure approvals", question: "Who can approve Azure subscriptions?" },
+  { label: "Kotlin experts", question: "Who knows Kotlin Multiplatform?" },
+  { label: "Production access", question: "How do I request production data access?" },
 ];
 
 const thinkingMessages = [
@@ -115,9 +121,9 @@ function AnswerCard({
   const hasRichAnswer = answer.item && answer.owningTeam;
 
   return (
-    <div className="mt-4 space-y-4">
+    <div className="mt-3 space-y-3 md:mt-4 md:space-y-4">
       {hasRichAnswer ? (
-        <div className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-800 dark:bg-slate-950">
+        <div className="rounded-lg bg-white p-4 shadow-sm md:border md:border-slate-200 md:p-5 dark:border-slate-800 dark:bg-slate-950">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
           <div>
             <div className="flex flex-wrap items-center gap-2">
@@ -155,7 +161,7 @@ function AnswerCard({
           </div>
         </div>
 
-        <div className="mt-5 rounded-lg border border-slate-200 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-900">
+        <div className="mt-4 rounded-lg bg-slate-50 p-3 md:mt-5 md:border md:border-slate-200 md:p-4 dark:border-slate-800 dark:bg-slate-900">
           <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
             <Icon name="people" />
             Owning team
@@ -171,7 +177,7 @@ function AnswerCard({
       ) : null}
 
       {answer.primaryContact && answer.backupContact ? (
-        <div className="grid gap-4 md:grid-cols-2">
+        <div className="grid gap-3 md:grid-cols-2 md:gap-4">
           <PersonCard title="Primary contact" person={answer.primaryContact} />
           <PersonCard title="Backup contact" person={answer.backupContact} />
         </div>
@@ -183,7 +189,7 @@ function AnswerCard({
           <a
             key={`${source.type}-${source.title}`}
             href={source.url}
-            className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:border-[#0054F0] hover:shadow-md dark:border-slate-800 dark:bg-slate-950 dark:hover:border-[#6EA2FF]"
+            className="rounded-lg bg-white p-3 shadow-sm transition hover:-translate-y-0.5 hover:border-[#0054F0] hover:shadow-md md:border md:border-slate-200 md:p-4 dark:border-slate-800 dark:bg-slate-950 dark:hover:border-[#6EA2FF]"
           >
             <span className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-[#0054F0] dark:text-[#9FC2FF]">
               <Icon name="document" />
@@ -199,7 +205,7 @@ function AnswerCard({
       ) : null}
 
       {answer.relatedSystems?.length ? (
-        <div className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-950">
+        <div className="rounded-lg bg-white p-3 shadow-sm md:border md:border-slate-200 md:p-4 dark:border-slate-800 dark:bg-slate-950">
           <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
             <Icon name="link" />
             Related services
@@ -231,7 +237,7 @@ function AnswerCard({
       </div>
 
       {answer.suggestions.length ? (
-        <div className="rounded-lg border border-slate-200 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-900">
+        <div className="rounded-lg bg-slate-50 p-3 md:border md:border-slate-200 md:p-4 dark:border-slate-800 dark:bg-slate-900">
           <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
             Suggested questions
           </p>
@@ -261,8 +267,6 @@ export default function Home() {
   const [conversationContext, setConversationContext] = useState<ConversationContext>({});
   const inputRef = useRef<HTMLInputElement>(null);
   const messageCounter = useRef(0);
-
-  const recentQuestions = useMemo(() => exampleQuestions.slice(6, 16), []);
 
   function nextMessageId(prefix: string) {
     messageCounter.current += 1;
@@ -330,43 +334,46 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-[#F7F3EF] text-slate-950 dark:bg-slate-950 dark:text-white">
-      <div className="flex min-h-screen flex-col lg:flex-row">
-        <aside className="border-b border-slate-200 bg-white px-6 py-5 shadow-sm dark:border-slate-800 dark:bg-slate-900 lg:w-80 lg:border-b-0 lg:border-r">
+    <main className="min-h-[100dvh] bg-[#F7F3EF] text-slate-950 dark:bg-slate-950 dark:text-white">
+      <div className="flex min-h-[100dvh] flex-col lg:flex-row">
+        <aside className="border-b border-slate-200 bg-white px-4 py-3 shadow-sm dark:border-slate-800 dark:bg-slate-900 md:px-6 md:py-5 lg:w-80 lg:border-b-0 lg:border-r">
           <div className="flex items-center justify-between gap-3 lg:block">
             <div>
-              <div className="flex items-center gap-3">
-                <Image src="/If-logo.svg" alt="If logo" width={40} height={40} priority />
-                <p className="text-2xl font-bold tracking-tight">If Helper Hub</p>
+              <div className="flex items-center gap-2 md:gap-3">
+                <Image src="/If-logo.svg" alt="If logo" width={32} height={32} priority className="md:size-10" />
+                <p className="text-xl font-bold tracking-tight md:text-2xl">If Helper Hub</p>
               </div>
-              <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">
+              <p className="mt-0.5 text-xs text-slate-600 dark:text-slate-300 md:mt-1 md:text-sm">
                 Ask who owns what.
               </p>
             </div>
           </div>
 
-          <div className="mt-6">
-            <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+          <div className="mt-3 md:mt-6">
+            <p className="hidden text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 md:block">
               Try a prompt
             </p>
             <div className="mt-3 flex gap-2 overflow-x-auto pb-2 lg:flex-col lg:overflow-visible lg:pb-0">
-              {recentQuestions.map((question) => (
+              {promptSuggestions.map((prompt, index) => (
                 <button
-                  key={question}
+                  key={prompt.label}
                   type="button"
-                  onClick={() => void askQuestion(question)}
-                  className="inline-flex shrink-0 items-start gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2 text-left text-sm font-medium text-slate-700 shadow-sm transition hover:border-[#0054F0] hover:text-[#0054F0] dark:border-slate-800 dark:bg-slate-900 dark:text-slate-200 dark:hover:border-[#6EA2FF] dark:hover:text-[#9FC2FF]"
+                  onClick={() => void askQuestion(prompt.question)}
+                  className={`inline-flex shrink-0 items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-left text-xs font-semibold text-slate-700 shadow-sm transition hover:border-[#0054F0] hover:text-[#0054F0] md:px-3 md:py-2 md:text-sm lg:items-start dark:border-slate-800 dark:bg-slate-900 dark:text-slate-200 dark:hover:border-[#6EA2FF] dark:hover:text-[#9FC2FF] ${
+                    index > 1 ? "hidden md:inline-flex" : ""
+                  }`}
                 >
-                  <Icon name="search" className="mt-0.5 size-4" />
-                  {question}
+                  <Icon name="search" className="size-3.5 md:mt-0.5 md:size-4" />
+                  <span className="md:hidden">{prompt.label}</span>
+                  <span className="hidden md:inline">{prompt.question}</span>
                 </button>
               ))}
             </div>
           </div>
         </aside>
 
-        <section className="flex flex-1 flex-col">
-          <header className="border-b border-slate-200 bg-white/90 px-5 py-4 backdrop-blur dark:border-slate-800 dark:bg-slate-900/90">
+        <section className="flex min-h-0 flex-1 flex-col">
+          <header className="hidden border-b border-slate-200 bg-white/90 px-5 py-4 backdrop-blur dark:border-slate-800 dark:bg-slate-900/90 md:block">
             <div className="mx-auto flex max-w-5xl items-center justify-between gap-4">
               <div className="flex items-start gap-3">
                 <div className="hidden size-10 items-center justify-center rounded-lg bg-[#E8F1FF] text-[#0054F0] sm:flex dark:bg-[#06265E] dark:text-[#BFD6FF]">
@@ -382,18 +389,22 @@ export default function Home() {
             </div>
           </header>
 
-          <div className="flex-1 overflow-y-auto px-4 py-6">
-            <div className="mx-auto max-w-5xl space-y-5">
+          <div className="min-h-0 flex-1 overflow-y-auto px-3 py-3 md:px-4 md:py-6">
+            <div className="mx-auto max-w-5xl space-y-3 md:space-y-5">
               {messages.length === 1 ? (
-                <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
-                  <p className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-[#0054F0] dark:text-[#9FC2FF]">
+                <div className="rounded-lg bg-white p-3 shadow-sm md:border md:border-slate-200 md:p-6 dark:border-slate-800 dark:bg-slate-900">
+                  <p className="hidden items-center gap-2 text-sm font-semibold uppercase tracking-wide text-[#0054F0] dark:text-[#9FC2FF] md:flex">
                     <Icon name="chat" />
                     Internal knowledge routing
                   </p>
-                  <h2 className="mt-3 text-2xl font-bold tracking-tight">
-                    Ask a plain-language ownership question.
+                  <h2 className="text-base font-bold tracking-tight md:mt-3 md:text-2xl">
+                    <span className="md:hidden">Ask who owns what.</span>
+                    <span className="hidden md:inline">Ask a plain-language ownership question.</span>
                   </h2>
-                  <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600 dark:text-slate-300">
+                  <p className="mt-1 text-xs leading-5 text-slate-600 dark:text-slate-300 md:hidden">
+                    Find owners, teams, experts, and source evidence.
+                  </p>
+                  <p className="mt-3 hidden max-w-2xl text-sm leading-6 text-slate-600 dark:text-slate-300 md:block">
                    Helper Hub turns messy internal clues into an answer card with likely owner, backup, confidence, and source evidence behind the recommendation.
                   </p>
                 </div>
@@ -405,13 +416,13 @@ export default function Home() {
                   className={`flex ${message.role === "user" ? "justify-end" : "justify-start"}`}
                 >
                   <div
-                    className={`max-w-3xl rounded-lg px-4 py-3 shadow-sm ${
+                    className={`max-w-3xl rounded-lg px-3 py-2.5 shadow-sm md:px-4 md:py-3 ${
                       message.role === "user"
                         ? "bg-[#0054F0] text-white"
-                        : "border border-slate-200 bg-white text-slate-800 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-100"
+                        : "bg-white text-slate-800 md:border md:border-slate-200 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-100"
                     }`}
                   >
-                    <p className="whitespace-pre-line text-sm leading-6">{message.text}</p>
+                    <p className="whitespace-pre-line text-sm leading-5 md:leading-6">{message.text}</p>
                     {message.response ? <AnswerCard response={message.response} onAsk={askQuestion} /> : null}
                   </div>
                 </div>
@@ -419,7 +430,7 @@ export default function Home() {
 
               {isLoading ? (
                 <div className="flex justify-start">
-                  <div className="rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm text-slate-600 shadow-sm dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300">
+                  <div className="rounded-lg bg-white px-3 py-2.5 text-sm text-slate-600 shadow-sm md:border md:border-slate-200 md:px-4 md:py-3 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300">
                     <span className="mr-2 inline-block size-2 animate-pulse rounded-full bg-[#0054F0]" />
                     {thinkingText}
                   </div>
@@ -428,19 +439,19 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="border-t border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900">
-            <form onSubmit={onSubmit} className="mx-auto flex max-w-5xl gap-3">
+          <div className="sticky bottom-0 border-t border-slate-200 bg-white p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] dark:border-slate-800 dark:bg-slate-900 md:p-4 md:pb-[calc(1rem+env(safe-area-inset-bottom))]">
+            <form onSubmit={onSubmit} className="mx-auto flex max-w-5xl gap-2 md:gap-3">
               <input
                 ref={inputRef}
                 value={input}
                 onChange={(event) => setInput(event.target.value)}
                 placeholder="Ask: Who owns the Travel Claims API?"
-                className="min-w-0 flex-1 rounded-lg border border-slate-300 bg-white px-4 py-3 text-sm text-slate-950 outline-none transition placeholder:text-slate-400 focus:border-[#0054F0] focus:ring-4 focus:ring-[#DCEAFF] dark:border-slate-700 dark:bg-slate-950 dark:text-white dark:focus:border-[#6EA2FF] dark:focus:ring-[#06265E]"
+                className="min-w-0 flex-1 rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm text-slate-950 outline-none transition placeholder:text-slate-400 focus:border-[#0054F0] focus:ring-4 focus:ring-[#DCEAFF] md:px-4 md:py-3 dark:border-slate-700 dark:bg-slate-950 dark:text-white dark:focus:border-[#6EA2FF] dark:focus:ring-[#06265E]"
               />
               <button
                 type="submit"
                 disabled={isLoading || !input.trim()}
-                className="inline-flex items-center gap-2 rounded-lg bg-[#0054F0] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#003A8C] disabled:cursor-not-allowed disabled:bg-slate-300 dark:disabled:bg-slate-700"
+                className="inline-flex items-center gap-2 rounded-lg bg-[#0054F0] px-3 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-[#003A8C] disabled:cursor-not-allowed disabled:bg-slate-300 md:px-5 md:py-3 dark:disabled:bg-slate-700"
               >
                 <Icon name="send" />
                 Ask
