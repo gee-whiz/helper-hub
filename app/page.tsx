@@ -59,7 +59,6 @@ function Icon({
 
 function actionIcon(label: string): keyof typeof iconPaths {
   if (label.includes("Teams")) return "teams";
-  if (label.includes("Jira")) return "external";
   if (label.includes("Confluence")) return "document";
   return "link";
 }

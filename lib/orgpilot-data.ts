@@ -17,7 +17,7 @@ export type Team = {
 
 export type EvidenceSource = {
   title: string;
-  type: "Service Catalog" | "Jira" | "GitHub" | "Confluence" | "Teams" | "HR Skills";
+  type: "Service Catalog" | "GitHub" | "Confluence" | "Teams" | "HR Skills";
   detail: string;
   url: string;
 };
@@ -349,11 +349,10 @@ export const knowledgeItems: KnowledgeItem[] = [
     ],
     evidence: [
       { title: "Service Catalog", type: "Service Catalog", detail: "Owner set to Claims Platform on 2026-05-21.", url: "#" },
-      { title: "Jira CLAIMS-4821", type: "Jira", detail: "Alice listed as tech lead for migration to v3.", url: "#" },
+      { title: "Confluence Claims API ownership", type: "Confluence", detail: "Claims ownership page lists Alice as product owner for the v3 migration.", url: "#" },
       { title: "GitHub commits", type: "GitHub", detail: "Recent maintainers: Alice Johnson, George Kapoya.", url: "#" },
     ],
     actions: [
-      { label: "Open Jira", url: "#" },
       { label: "View Confluence", url: "#" },
       { label: "Ask in Teams", url: "#" },
     ],
@@ -390,11 +389,10 @@ export const knowledgeItems: KnowledgeItem[] = [
       { scope: { scopeType: "global" }, ownerTeamId: "customer-mobile", primaryContactId: "nina-holm", backupContactId: "marcus-lee", confidence: 86 },
     ],
     evidence: [
-      { title: "Jira MOB-1840", type: "Jira", detail: "Nina is project design lead; Marcus owns app shell delivery.", url: "#" },
+      { title: "Confluence mobile redesign plan", type: "Confluence", detail: "Nina is project design lead; Marcus owns app shell delivery.", url: "#" },
       { title: "Confluence research readout", type: "Confluence", detail: "Customer Mobile listed as accountable team.", url: "#" },
     ],
     actions: [
-      { label: "Open Jira", url: "#" },
       { label: "View Confluence", url: "#" },
       { label: "Ask in Teams", url: "#" },
     ],
@@ -428,10 +426,9 @@ export const knowledgeItems: KnowledgeItem[] = [
     ],
     evidence: [
       { title: "Service Catalog", type: "Service Catalog", detail: "Partner Integrations owns production and sandbox endpoints.", url: "#" },
-      { title: "Jira PARTNER-2209", type: "Jira", detail: "Priya accepted the latest OAuth scope changes.", url: "#" },
+      { title: "Confluence partner API changelog", type: "Confluence", detail: "Priya accepted the latest OAuth scope changes.", url: "#" },
     ],
     actions: [
-      { label: "Open Jira", url: "#" },
       { label: "View Confluence", url: "#" },
     ],
   },
@@ -446,10 +443,9 @@ export const knowledgeItems: KnowledgeItem[] = [
     ],
     evidence: [
       { title: "Confluence DATA-ACCESS", type: "Confluence", detail: "Data Enablement manages request routing and role templates.", url: "#" },
-      { title: "Jira DATA-771", type: "Jira", detail: "Tom updated the approval automation in May.", url: "#" },
+      { title: "Confluence data access runbook", type: "Confluence", detail: "Tom updated the approval automation notes in May.", url: "#" },
     ],
     actions: [
-      { label: "Open Jira", url: "#" },
       { label: "View Confluence", url: "#" },
       { label: "Ask in Teams", url: "#" },
     ],
@@ -509,10 +505,10 @@ export const knowledgeItems: KnowledgeItem[] = [
     ],
     evidence: [
       { title: "Confluence API Governance", type: "Confluence", detail: "Partner Integrations reviews partner-facing gateway exceptions.", url: "#" },
-      { title: "Jira API-990", type: "Jira", detail: "Priya routed the latest exception request.", url: "#" },
+      { title: "Confluence API exception log", type: "Confluence", detail: "Priya routed the latest exception request.", url: "#" },
     ],
     actions: [
-      { label: "Open Jira", url: "#" },
+      { label: "View Confluence", url: "#" },
       { label: "Ask in Teams", url: "#" },
     ],
   },
@@ -526,11 +522,10 @@ export const knowledgeItems: KnowledgeItem[] = [
       { scope: { scopeType: "global" }, ownerTeamId: "customer-mobile", primaryContactId: "marcus-lee", backupContactId: "nina-holm", confidence: 76 },
     ],
     evidence: [
-      { title: "Jira ID-3120", type: "Jira", detail: "Customer Mobile owns mobile handoff workstream.", url: "#" },
+      { title: "Confluence identity refresh plan", type: "Confluence", detail: "Customer Mobile owns mobile handoff workstream.", url: "#" },
       { title: "Confluence identity refresh", type: "Confluence", detail: "Marcus noted as app integration lead.", url: "#" },
     ],
     actions: [
-      { label: "Open Jira", url: "#" },
       { label: "View Confluence", url: "#" },
     ],
   },
