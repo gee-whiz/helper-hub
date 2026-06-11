@@ -71,13 +71,13 @@ export type ChatResponse = {
 
 export const people: Person[] = [
   {
-    id: "alice-johnson",
-    name: "Alice Johnson",
+    id: "paganus-annu",
+    name: "Paganus, Annu",
     role: "Product Owner",
     teamId: "claims-platform",
     location: "Oslo",
     skills: ["claims APIs", "Node.js", "service ownership", "incident response"],
-    email: "alice.johnson@if.fi",
+    email: "paganus.annu@if.fi",
   },
   {
     id: "george-kapoya",
@@ -333,6 +333,8 @@ export const teams: Team[] = [
   },
 ];
 
+const teamsDeepLink = "msteams://teams.microsoft.com";
+
 export const knowledgeItems: KnowledgeItem[] = [
   {
     id: "travel-claims-api",
@@ -341,20 +343,20 @@ export const knowledgeItems: KnowledgeItem[] = [
     summary: "Claims submission and reimbursement status API for employee travel expenses.",
     keywords: ["travel", "claims", "claim", "api", "reimbursement", "expense", "expenses"],
     ownerships: [
-      { scope: { scopeType: "global" }, ownerTeamId: "claims-platform", primaryContactId: "alice-johnson", backupContactId: "george-kapoya", confidence: 92 },
+      { scope: { scopeType: "global" }, ownerTeamId: "claims-platform", primaryContactId: "paganus-annu", backupContactId: "george-kapoya", confidence: 92 },
       { scope: { scopeType: "country", country: "Finland", market: "Finland" }, ownerTeamId: "claims-platform-finland", primaryContactId: "aino-korhonen", backupContactId: "george-kapoya", confidence: 94 },
-      { scope: { scopeType: "country", country: "Norway", market: "Norway" }, ownerTeamId: "claims-platform-norway", primaryContactId: "erik-lund", backupContactId: "alice-johnson", confidence: 91 },
+      { scope: { scopeType: "country", country: "Norway", market: "Norway" }, ownerTeamId: "claims-platform-norway", primaryContactId: "erik-lund", backupContactId: "paganus-annu", confidence: 91 },
       { scope: { scopeType: "country", country: "Sweden", market: "Sweden" }, ownerTeamId: "claims-platform-sweden", primaryContactId: "maja-andersson", backupContactId: "nina-holm", confidence: 90 },
       { scope: { scopeType: "country", country: "Denmark", market: "Denmark" }, ownerTeamId: "claims-platform-denmark", primaryContactId: "freja-nielsen", backupContactId: "priya-nair", confidence: 89 },
     ],
     evidence: [
       { title: "Service Catalog", type: "Service Catalog", detail: "Owner set to Claims Platform on 2026-05-21.", url: "#" },
-      { title: "Confluence Claims API ownership", type: "Confluence", detail: "Claims ownership page lists Alice as product owner for the v3 migration.", url: "#" },
-      { title: "GitHub commits", type: "GitHub", detail: "Recent maintainers: Alice Johnson, George Kapoya.", url: "#" },
+      { title: "Confluence Claims API ownership", type: "Confluence", detail: "Claims ownership page lists Paganus, Annu as product owner for the v3 migration.", url: "#" },
+      { title: "GitHub commits", type: "GitHub", detail: "Recent maintainers: Paganus, Annu, George Kapoya.", url: "#" },
     ],
     actions: [
       { label: "View Confluence", url: "#" },
-      { label: "Ask in Teams", url: "#" },
+      { label: "Ask in Teams", url: teamsDeepLink },
     ],
   },
   {
@@ -372,11 +374,11 @@ export const knowledgeItems: KnowledgeItem[] = [
     ],
     evidence: [
       { title: "Confluence CLOUD-OPS", type: "Confluence", detail: "Approval matrix names Cloud Governance as process owner.", url: "#" },
-      { title: "Teams approvals", type: "Teams", detail: "Maria handled the last seven subscription approvals.", url: "#" },
+      { title: "Teams approvals", type: "Teams", detail: "Maria handled the last seven subscription approvals.", url: teamsDeepLink },
     ],
     actions: [
       { label: "View Confluence", url: "#" },
-      { label: "Ask in Teams", url: "#" },
+      { label: "Ask in Teams", url: teamsDeepLink },
     ],
   },
   {
@@ -394,7 +396,7 @@ export const knowledgeItems: KnowledgeItem[] = [
     ],
     actions: [
       { label: "View Confluence", url: "#" },
-      { label: "Ask in Teams", url: "#" },
+      { label: "Ask in Teams", url: teamsDeepLink },
     ],
   },
   {
@@ -412,7 +414,7 @@ export const knowledgeItems: KnowledgeItem[] = [
     ],
     actions: [
       { label: "View Confluence", url: "#" },
-      { label: "Ask in Teams", url: "#" },
+      { label: "Ask in Teams", url: teamsDeepLink },
     ],
   },
   {
@@ -447,7 +449,7 @@ export const knowledgeItems: KnowledgeItem[] = [
     ],
     actions: [
       { label: "View Confluence", url: "#" },
-      { label: "Ask in Teams", url: "#" },
+      { label: "Ask in Teams", url: teamsDeepLink },
     ],
   },
   {
@@ -465,11 +467,11 @@ export const knowledgeItems: KnowledgeItem[] = [
     ],
     evidence: [
       { title: "Confluence PAP overview", type: "Confluence", detail: "PAP is described as the pre-production checklist for risk, monitoring, rollback, security, and owner sign-off.", url: "#" },
-      { title: "Teams production readiness", type: "Teams", detail: "Cloud Governance routes PAP questions and confirms which approvals are needed for launch.", url: "#" },
+      { title: "Teams production readiness", type: "Teams", detail: "Cloud Governance routes PAP questions and confirms which approvals are needed for launch.", url: teamsDeepLink },
     ],
     actions: [
       { label: "View PAP checklist", url: "#" },
-      { label: "Ask in Teams", url: "#" },
+      { label: "Ask in Teams", url: teamsDeepLink },
     ],
   },
   {
@@ -479,9 +481,9 @@ export const knowledgeItems: KnowledgeItem[] = [
     summary: "Kafka event stream publishing claims lifecycle changes to downstream systems.",
     keywords: ["claims", "event", "stream", "kafka", "lifecycle", "downstream"],
     ownerships: [
-      { scope: { scopeType: "global" }, ownerTeamId: "claims-platform", primaryContactId: "george-kapoya", backupContactId: "alice-johnson", confidence: 90 },
+      { scope: { scopeType: "global" }, ownerTeamId: "claims-platform", primaryContactId: "george-kapoya", backupContactId: "paganus-annu", confidence: 90 },
       { scope: { scopeType: "country", country: "Finland", market: "Finland" }, ownerTeamId: "claims-platform-finland", primaryContactId: "aino-korhonen", backupContactId: "george-kapoya", confidence: 93 },
-      { scope: { scopeType: "country", country: "Norway", market: "Norway" }, ownerTeamId: "claims-platform-norway", primaryContactId: "erik-lund", backupContactId: "alice-johnson", confidence: 89 },
+      { scope: { scopeType: "country", country: "Norway", market: "Norway" }, ownerTeamId: "claims-platform-norway", primaryContactId: "erik-lund", backupContactId: "paganus-annu", confidence: 89 },
       { scope: { scopeType: "country", country: "Sweden", market: "Sweden" }, ownerTeamId: "claims-platform-sweden", primaryContactId: "maja-andersson", backupContactId: "nina-holm", confidence: 88 },
       { scope: { scopeType: "country", country: "Denmark", market: "Denmark" }, ownerTeamId: "claims-platform-denmark", primaryContactId: "freja-nielsen", backupContactId: "priya-nair", confidence: 87 },
     ],
@@ -491,7 +493,7 @@ export const knowledgeItems: KnowledgeItem[] = [
     ],
     actions: [
       { label: "View Confluence", url: "#" },
-      { label: "Ask in Teams", url: "#" },
+      { label: "Ask in Teams", url: teamsDeepLink },
     ],
   },
   {
@@ -509,7 +511,7 @@ export const knowledgeItems: KnowledgeItem[] = [
     ],
     actions: [
       { label: "View Confluence", url: "#" },
-      { label: "Ask in Teams", url: "#" },
+      { label: "Ask in Teams", url: teamsDeepLink },
     ],
   },
   {
@@ -544,7 +546,7 @@ export const knowledgeItems: KnowledgeItem[] = [
     ],
     actions: [
       { label: "View Confluence", url: "#" },
-      { label: "Ask in Teams", url: "#" },
+      { label: "Ask in Teams", url: teamsDeepLink },
     ],
   },
 ];
