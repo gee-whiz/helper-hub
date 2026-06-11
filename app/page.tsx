@@ -11,14 +11,6 @@ type Message = {
   response?: ChatResponse;
 };
 
-const starterMessages: Message[] = [
-  {
-    id: "welcome",
-    role: "assistant",
-    text: "Hi, ask me who owns a system, process, or project.",
-  },
-];
-
 const promptSuggestions = [
   { label: "Travel Claims API", question: "Who owns the Travel Claims API?" },
   { label: "Azure approvals", question: "Who can approve Azure subscriptions?" },
@@ -130,6 +122,11 @@ function AnswerCard({
               <span className="rounded-full bg-[#E8F1FF] px-2.5 py-1 text-xs font-medium capitalize text-[#003A8C] dark:bg-[#06265E] dark:text-[#BFD6FF]">
                 {answer.item?.kind}
               </span>
+              {answer.scope ? (
+                <span className="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-300">
+                  {answer.scope.scopeType === "country" ? answer.scope.country : "Global"}
+                </span>
+              ) : null}
               {!response.matched ? (
                 <span className="rounded-full bg-amber-100 px-2.5 py-1 text-xs font-medium text-amber-800 dark:bg-amber-950 dark:text-amber-200">
                   Possible match
@@ -260,7 +257,7 @@ function AnswerCard({
 }
 
 export default function Home() {
-  const [messages, setMessages] = useState<Message[]>(starterMessages);
+  const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [thinkingText, setThinkingText] = useState(thinkingMessages[0]);
@@ -389,27 +386,8 @@ export default function Home() {
             </div>
           </header>
 
-          <div className="min-h-0 flex-1 overflow-y-auto px-3 py-3 md:px-4 md:py-6">
+          <div className="min-h-0 flex-1 overflow-y-auto px-3 pb-[calc(5.5rem+env(safe-area-inset-bottom))] pt-3 md:px-4 md:py-6">
             <div className="mx-auto max-w-5xl space-y-3 md:space-y-5">
-              {messages.length === 1 ? (
-                <div className="rounded-lg bg-white p-3 shadow-sm md:border md:border-slate-200 md:p-6 dark:border-slate-800 dark:bg-slate-900">
-                  <p className="hidden items-center gap-2 text-sm font-semibold uppercase tracking-wide text-[#0054F0] dark:text-[#9FC2FF] md:flex">
-                    <Icon name="chat" />
-                    Internal knowledge routing
-                  </p>
-                  <h2 className="text-base font-bold tracking-tight md:mt-3 md:text-2xl">
-                    <span className="md:hidden">Ask who owns what.</span>
-                    <span className="hidden md:inline">Ask a plain-language ownership question.</span>
-                  </h2>
-                  <p className="mt-1 text-xs leading-5 text-slate-600 dark:text-slate-300 md:hidden">
-                    Find owners, teams, experts, and source evidence.
-                  </p>
-                  <p className="mt-3 hidden max-w-2xl text-sm leading-6 text-slate-600 dark:text-slate-300 md:block">
-                   Helper Hub turns messy internal clues into an answer card with likely owner, backup, confidence, and source evidence behind the recommendation.
-                  </p>
-                </div>
-              ) : null}
-
               {messages.map((message) => (
                 <div
                   key={message.id}
@@ -439,7 +417,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="sticky bottom-0 border-t border-slate-200 bg-white p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] dark:border-slate-800 dark:bg-slate-900 md:p-4 md:pb-[calc(1rem+env(safe-area-inset-bottom))]">
+          <div className="fixed inset-x-0 bottom-0 z-20 border-t border-slate-200 bg-white p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] shadow-[0_-8px_24px_rgba(15,23,42,0.08)] dark:border-slate-800 dark:bg-slate-900 md:static md:p-4 md:pb-[calc(1rem+env(safe-area-inset-bottom))] md:shadow-none">
             <form onSubmit={onSubmit} className="mx-auto flex max-w-5xl gap-2 md:gap-3">
               <input
                 ref={inputRef}

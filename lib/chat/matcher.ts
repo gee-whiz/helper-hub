@@ -1,10 +1,17 @@
-import { getPerson, getTeam, knowledgeItems, teams, type KnowledgeItem, type Team } from "@/lib/orgpilot-data";
+import { getPerson, getTeam, knowledgeItems, teams, type KnowledgeItem, type Ownership, type ResponsibilityScope, type Team } from "@/lib/orgpilot-data";
 import { normalizeText, type ChatIntent } from "./intents";
+
+export type ScopeRequest = {
+  country?: string;
+  global?: boolean;
+};
 
 export type MatchResult =
   | {
       type: "knowledge";
       item: KnowledgeItem;
+      ownership: Ownership;
+      scopeRequest: ScopeRequest;
       score: number;
       possibleMatches: KnowledgeItem[];
     }
@@ -14,6 +21,38 @@ export type MatchResult =
       score: number;
       relatedItems: KnowledgeItem[];
     };
+
+const countryTerms = [
+  { country: "Finland", terms: ["finland", "finnish", "suomi", "fi"] },
+  { country: "Norway", terms: ["norway", "norwegian", "norge", "no"] },
+  { country: "Sweden", terms: ["sweden", "swedish", "sverige", "se"] },
+  { country: "Denmark", terms: ["denmark", "danish", "danmark", "dk"] },
+];
+
+export function detectScopeRequest(query: string): ScopeRequest {
+  const normalized = normalizeText(query);
+  const words = normalized.split(/\s+/).filter(Boolean);
+  const country = countryTerms.find((entry) => entry.terms.some((term) => words.includes(term)))?.country;
+  const global = ["global", "globally", "overall owner"].some((term) => normalized.includes(term)) || normalized.includes("all countries");
+  return { country, global };
+}
+
+export function scopeLabel(scope: ResponsibilityScope) {
+  if (scope.scopeType === "country" && scope.country) return `${scope.country} scope`;
+  if (scope.scopeType === "business-unit" && scope.businessUnit) return `${scope.businessUnit} scope`;
+  return "Global scope";
+}
+
+export function selectOwnership(item: KnowledgeItem, scopeRequest: ScopeRequest = {}) {
+  if (scopeRequest.country && !scopeRequest.global) {
+    const countryMatch = item.ownerships.find(
+      (ownership) => ownership.scope.scopeType === "country" && ownership.scope.country === scopeRequest.country,
+    );
+    if (countryMatch) return countryMatch;
+  }
+
+  return item.ownerships.find((ownership) => ownership.scope.scopeType === "global") ?? item.ownerships[0];
+}
 
 function uniqueWords(value: string) {
   return [...new Set(normalizeText(value).split(/\s+/).filter(Boolean))];
@@ -42,9 +81,14 @@ function scoreKnowledgeItem(query: string, item: KnowledgeItem, intent: ChatInte
   const normalizedQuery = normalizeText(query);
   const normalizedLabel = normalizeText(item.label);
   const normalizedSummary = normalizeText(item.summary);
-  const team = getTeam(item.ownerTeamId);
-  const primary = getPerson(item.primaryContactId);
-  const backup = getPerson(item.backupContactId);
+  const ownershipText = item.ownerships
+    .flatMap((ownership) => {
+      const team = getTeam(ownership.ownerTeamId);
+      const primary = getPerson(ownership.primaryContactId);
+      const backup = getPerson(ownership.backupContactId);
+      return [team.name, primary.name, backup.name, ownership.scope.country ?? "", ownership.scope.market ?? "", ownership.scope.businessUnit ?? ""];
+    })
+    .join(" ");
 
   let score = 0;
 
@@ -54,8 +98,7 @@ function scoreKnowledgeItem(query: string, item: KnowledgeItem, intent: ChatInte
   score += item.keywords.filter((keyword) => normalizedQuery.includes(normalizeText(keyword))).length * 6;
   score += wordOverlap(query, item.keywords.join(" ")) * 3;
   score += wordOverlap(query, normalizedSummary) * 1.5;
-  score += wordOverlap(query, team.name) * 4;
-  score += wordOverlap(query, `${primary.name} ${backup.name}`) * 3;
+  score += wordOverlap(query, ownershipText) * 3;
 
   if (intent === "expertise_lookup" && item.kind === "skill") score += 8;
   if (intent === "process_lookup" && item.kind === "process") score += 8;
@@ -66,7 +109,7 @@ function scoreKnowledgeItem(query: string, item: KnowledgeItem, intent: ChatInte
 }
 
 function scoreTeam(query: string, team: Team) {
-  const relatedItems = knowledgeItems.filter((item) => item.ownerTeamId === team.id);
+  const relatedItems = knowledgeItems.filter((item) => item.ownerships.some((ownership) => ownership.ownerTeamId === team.id));
   const relatedText = relatedItems.flatMap((item) => [item.label, item.summary, item.keywords.join(" ")]).join(" ");
   const normalizedQuery = normalizeText(query);
   const normalizedTeam = normalizeText(team.name);
@@ -81,12 +124,15 @@ function scoreTeam(query: string, team: Team) {
 }
 
 export function getRelatedSystems(item: KnowledgeItem) {
+  const globalOwnerTeamId = selectOwnership(item).ownerTeamId;
   return knowledgeItems
-    .filter((candidate) => candidate.ownerTeamId === item.ownerTeamId && candidate.id !== item.id)
+    .filter((candidate) => candidate.id !== item.id && candidate.ownerships.some((ownership) => ownership.ownerTeamId === globalOwnerTeamId))
     .slice(0, 3);
 }
 
 export function findBestMatch(query: string, intent: ChatIntent): MatchResult | null {
+  const scopeRequest = detectScopeRequest(query);
+
   if (intent === "team_lookup") {
     const bestTeam = teams
       .map((team) => scoreTeam(query, team))
@@ -112,6 +158,8 @@ export function findBestMatch(query: string, intent: ChatIntent): MatchResult | 
   return {
     type: "knowledge",
     item: best.item,
+    ownership: selectOwnership(best.item, scopeRequest),
+    scopeRequest,
     score: best.score,
     possibleMatches: ranked.slice(1, 4).filter((match) => match.score >= 3).map((match) => match.item),
   };

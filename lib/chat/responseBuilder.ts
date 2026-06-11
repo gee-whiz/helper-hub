@@ -4,16 +4,19 @@ import {
   knowledgeItems,
   type EvidenceSource,
   type KnowledgeItem,
+  type Ownership,
   type Person,
+  type ResponsibilityScope,
   type Team,
 } from "@/lib/orgpilot-data";
 import { detectIntent, isContextFollowUp, type ChatIntent } from "./intents";
-import { findBestMatch, getRelatedSystems } from "./matcher";
+import { detectScopeRequest, findBestMatch, getRelatedSystems, scopeLabel, selectOwnership } from "./matcher";
 
 export type ConversationContext = {
   recentItemId?: string;
   recentTeamId?: string;
   recentIntent?: ChatIntent;
+  recentScope?: ResponsibilityScope;
 };
 
 export type RichAnswer = {
@@ -28,6 +31,7 @@ export type RichAnswer = {
   possibleMatches?: Pick<KnowledgeItem, "id" | "label" | "kind" | "summary">[];
   suggestions: string[];
   relatedSystems?: Pick<KnowledgeItem, "id" | "label" | "kind" | "summary">[];
+  scope?: ResponsibilityScope;
 };
 
 export type ChatResponse = {
@@ -77,14 +81,21 @@ function ownerVerb(item: KnowledgeItem) {
   return "I found a likely owner for that service.";
 }
 
-function buildKnowledgeResponse(query: string, intent: ChatIntent, item: KnowledgeItem, possibleMatches: KnowledgeItem[] = []): ChatResponse {
-  const owningTeam = getTeam(item.ownerTeamId);
-  const primaryContact = getPerson(item.primaryContactId);
-  const backupContact = getPerson(item.backupContactId);
+function buildKnowledgeResponse(
+  query: string,
+  intent: ChatIntent,
+  item: KnowledgeItem,
+  ownership: Ownership,
+  possibleMatches: KnowledgeItem[] = [],
+): ChatResponse {
+  const owningTeam = getTeam(ownership.ownerTeamId);
+  const primaryContact = getPerson(ownership.primaryContactId);
+  const backupContact = getPerson(ownership.backupContactId);
   const relatedSystems = getRelatedSystems(item).map(itemSummary);
+  const scope = scopeLabel(ownership.scope);
   const answerText = item.kind === "process"
-    ? item.label + ": " + item.summary + " " + primaryContact.name + " is the primary contact, with " + backupContact.name + " as backup."
-    : ownerVerb(item) + " " + primaryContact.name + " is the primary contact, with " + backupContact.name + " as backup.";
+    ? `${item.label} (${scope}): ${item.summary} ${primaryContact.name} is the primary contact, with ${backupContact.name} as backup.`
+    : `${ownerVerb(item)} For ${scope.toLowerCase()}, ${primaryContact.name} is the primary contact, with ${backupContact.name} as backup.`;
 
   return {
     query,
@@ -92,11 +103,12 @@ function buildKnowledgeResponse(query: string, intent: ChatIntent, item: Knowled
     intent,
     answer: {
       answer: answerText,
-      confidence: item.confidence,
+      confidence: ownership.confidence,
       primaryContact,
       backupContact,
       owningTeam,
       item: itemSummary(item),
+      scope: ownership.scope,
       evidence: item.evidence,
       actions: item.actions,
       possibleMatches: possibleMatches.map(itemSummary),
@@ -107,13 +119,15 @@ function buildKnowledgeResponse(query: string, intent: ChatIntent, item: Knowled
       recentItemId: item.id,
       recentTeamId: owningTeam.id,
       recentIntent: intent,
+      recentScope: ownership.scope,
     },
   };
 }
 
 function buildTeamResponse(query: string, team: Team, relatedItems: KnowledgeItem[]): ChatResponse {
   const primaryItem = relatedItems[0];
-  const primaryContact = primaryItem ? getPerson(primaryItem.primaryContactId) : undefined;
+  const primaryOwnership = primaryItem?.ownerships.find((ownership) => ownership.ownerTeamId === team.id) ?? (primaryItem ? selectOwnership(primaryItem) : undefined);
+  const primaryContact = primaryOwnership ? getPerson(primaryOwnership.primaryContactId) : undefined;
 
   return {
     query,
@@ -123,11 +137,12 @@ function buildTeamResponse(query: string, team: Team, relatedItems: KnowledgeIte
       answer: primaryContact
         ? `${team.name} looks like the right team. ${primaryContact.name} is a good starting contact based on related ownership records.`
         : `${team.name} looks like the right team.`,
-      confidence: primaryItem?.confidence ?? 82,
+      confidence: primaryOwnership?.confidence ?? 82,
       primaryContact,
-      backupContact: primaryItem ? getPerson(primaryItem.backupContactId) : undefined,
+      backupContact: primaryOwnership ? getPerson(primaryOwnership.backupContactId) : undefined,
       owningTeam: team,
       item: primaryItem ? itemSummary(primaryItem) : undefined,
+      scope: primaryOwnership?.scope,
       evidence: primaryItem?.evidence ?? [],
       actions: primaryItem?.actions ?? [{ label: "Ask in Teams", url: "#" }],
       suggestions: [
@@ -141,6 +156,7 @@ function buildTeamResponse(query: string, team: Team, relatedItems: KnowledgeIte
       recentItemId: primaryItem?.id,
       recentTeamId: team.id,
       recentIntent: "team_lookup",
+      recentScope: primaryOwnership?.scope,
     },
   };
 }
@@ -154,19 +170,26 @@ function buildFollowUpResponse(query: string, context: ConversationContext | und
   const item = findContextItem(context);
   if (!followUp || !item) return null;
 
-  const team = getTeam(item.ownerTeamId);
-  const primary = getPerson(item.primaryContactId);
-  const backup = getPerson(item.backupContactId);
+  const scopeRequest = detectScopeRequest(query);
+  const ownership =
+    !scopeRequest.country && !scopeRequest.global && context?.recentScope
+      ? item.ownerships.find((candidate) => candidate.scope.scopeType === context.recentScope?.scopeType && candidate.scope.country === context.recentScope?.country) ??
+        selectOwnership(item, scopeRequest)
+      : selectOwnership(item, scopeRequest);
+  const team = getTeam(ownership.ownerTeamId);
+  const primary = getPerson(ownership.primaryContactId);
+  const backup = getPerson(ownership.backupContactId);
   const relatedSystems = getRelatedSystems(item).map(itemSummary);
+  const scope = scopeLabel(ownership.scope);
 
   const detail = {
-    backup: `${backup.name} is the backup contact for ${item.label}.`,
-    team: `${team.name} owns ${item.label}. Their channel is ${team.channel}.`,
-    evidence: `The strongest signals for ${item.label} are ${item.evidence.map((source) => source.title).join(", ")}.`,
+    backup: `${backup.name} is the backup contact for ${item.label} (${scope}).`,
+    team: `${team.name} owns ${item.label} for ${scope.toLowerCase()}. Their channel is ${team.channel}.`,
+    evidence: `The strongest signals for ${item.label} (${scope}) are ${item.evidence.map((source) => source.title).join(", ")}.`,
     related: relatedSystems.length
       ? `${team.name} also appears connected to ${relatedSystems.map((system) => system.label).join(", ")}.`
       : `I do not see closely related systems for ${item.label} yet.`,
-    primary: `${primary.name} is the primary contact for ${item.label}.`,
+    primary: `${primary.name} is the primary contact for ${item.label} (${scope}).`,
   }[followUp];
 
   return {
@@ -175,11 +198,12 @@ function buildFollowUpResponse(query: string, context: ConversationContext | und
     intent,
     answer: {
       answer: detail,
-      confidence: item.confidence,
+      confidence: ownership.confidence,
       primaryContact: primary,
       backupContact: backup,
       owningTeam: team,
       item: itemSummary(item),
+      scope: ownership.scope,
       evidence: item.evidence,
       actions: item.actions,
       suggestions: relatedSuggestions(item),
@@ -189,6 +213,7 @@ function buildFollowUpResponse(query: string, context: ConversationContext | und
       recentItemId: item.id,
       recentTeamId: team.id,
       recentIntent: intent,
+      recentScope: ownership.scope,
     },
   };
 }
@@ -274,5 +299,5 @@ export function generateResponse(message: string, conversationContext?: Conversa
     return buildTeamResponse(query, match.team, match.relatedItems);
   }
 
-  return buildKnowledgeResponse(query, intent, match.item, match.possibleMatches);
+  return buildKnowledgeResponse(query, intent, match.item, match.ownership, match.possibleMatches);
 }
